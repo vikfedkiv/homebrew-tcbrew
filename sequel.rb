@@ -3,8 +3,6 @@ class Sequel < Formula
   homepage ""
   url "http://10.10.4.242/sequel-pro-1.1.2.dmg"
 
-depends_on macos: '>= :leopard'
-
   app 'Sequel Pro.app'
 
   zap trash: [
