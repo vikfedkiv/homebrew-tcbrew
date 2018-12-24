@@ -1,4 +1,4 @@
-  url "https://github.com/sequelpro/sequelpro/releases/download/release-#{version}/sequel-pro-#{version}.dmg"
+  url "http://10.10.4.242/sequel-pro-1.1.2.dmg"
   appcast 'https://github.com/sequelpro/sequelpro/releases.atom'
   name 'Sequel Pro'
   homepage 'https://www.sequelpro.com/'
