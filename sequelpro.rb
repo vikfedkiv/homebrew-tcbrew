@@ -6,7 +6,7 @@ class Sequelpro < Formula
 
   def install
   
-  system "make", "install"
+  system "make install"
   
   end
 
