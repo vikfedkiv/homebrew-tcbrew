@@ -1,4 +1,4 @@
-class Sequelpro < Formula
+Sequelpro < Formula do
   desc "..."
   homepage "..."
   url "http://10.10.4.242/sequel-pro-1.1.2.dmg"
