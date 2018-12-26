@@ -1,9 +1,9 @@
-class Nginx < Formula
+ass Nginx < Formula
   desc "HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server"
   homepage "https://nginx.org/"
   # Use "mainline" releases only (odd minor version number), not "stable"
   # See https://www.nginx.com/blog/nginx-1-12-1-13-released/ for why
-  url "http://10.10.4.242/nginx-1.15.7.tar.gz"
+  url "http://10.10.0.134/nginx-1.15.7.tar.gz"
   sha256 "8f22ea2f6c0e0a221b6ddc02b6428a3ff708e2ad55f9361102b1c9f4142bdf93"
   head "https://hg.nginx.org/nginx/", :using => :hg
 
