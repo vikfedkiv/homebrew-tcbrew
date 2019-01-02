@@ -14,8 +14,8 @@ class Passenger < Formula
   option "without-apache2-module", "Disable Apache2 module"
 
   depends_on :macos => :lion
-  depends_on "openssl"
-  depends_on "pcre"
+  depends_on "vikfedkiv/tcbrew/openssl"
+  depends_on "vikfedkiv/tcbrew/pcre"
 
   def install
     # https://github.com/Homebrew/homebrew-core/pull/1046
