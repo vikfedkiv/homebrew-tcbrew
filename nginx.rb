@@ -15,9 +15,9 @@ class Nginx < Formula
 
   option "with-passenger", "Compile with support for Phusion Passenger module"
 
-  depends_on "openssl" # don't switch to 1.1 until passenger is switched, too
-  depends_on "pcre"
-  depends_on "passenger" => :optional
+  depends_on "vikfedkiv/tcbrew/openssl" # don't switch to 1.1 until passenger is switched, too
+  depends_on "vikfedkiv/tcbrew/pcre"
+  depends_on "vikfedkiv/tcbrew/passenger" => :optional
 
   def install
     # Changes default port to 8080
