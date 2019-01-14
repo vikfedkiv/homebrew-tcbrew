@@ -11,12 +11,12 @@ class Httpd < Formula
 #    sha256 "2a590a6481db784637da8d6b0f82b927819ec5f29d70829079bd4e06d8c68a23" => :sierra
 #  end
 
-  depends_on "apr"
-  depends_on "apr-util"
-  depends_on "brotli"
-  depends_on "nghttp2"
-  depends_on "openssl"
-  depends_on "pcre"
+  depends_on "vikfedkiv/tcbrew/apr"
+  depends_on "vikfedkiv/tcbrew/apr-util"
+  depends_on "vikfedkiv/tcbrew/brotli"
+  depends_on "vikfedkiv/tcbrew/nghttp2"
+  depends_on "vikfedkiv/tcbrew/openssl"
+  depends_on "vikfedkiv/tcbrew/pcre"
 
   def install
     # fixup prefix references in favour of opt_prefix references

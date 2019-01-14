@@ -1,5 +1,6 @@
 class Photoshop < Cask
-  url "http://10.10.4.242/Adobe%20Photoshop.dmg"
+  require_relative 'url'
+  url $url+'/Adobe%20Photoshop.dmg'
   homepage 'https://testtc.com'
   version '201901'  
   no_checksum

@@ -15,9 +15,9 @@ class Pcre < Formula
   head do
     url "svn://vcs.exim.org/pcre/code/trunk"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "vikfedkiv/tcbrew/autoconf" => :build
+    depends_on "vikfedkiv/tcbrew/automake" => :build
+    depends_on "vikfedkiv/tcbrew/libtool" => :build
   end
 
   def install

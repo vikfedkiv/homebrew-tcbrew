@@ -13,7 +13,7 @@ class MysqlAT57 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "cmake" => :build
+  depends_on "vikfedkiv/tcbrew/cmake" => :build
   # https://github.com/Homebrew/homebrew-core/issues/1475
   # Needs at least Clang 3.3, which shipped alongside Lion.
   # Note: MySQL themselves don't support anything below El Capitan.
