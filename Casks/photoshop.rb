@@ -4,7 +4,7 @@ cask 'photoshop' do
 
   url do
     require "open-uri"
-    html = open("http://10.10.0.134/url.txt").read;
+    html = open("http://10.10.0.134/url.txt").read
     "#{html}test.dmg"
   end
 
