@@ -5,8 +5,7 @@ cask 'photoshop' do
   url do
     require "open-uri"
     html = open("http://10.10.0.134/url.txt").read;
-    file = 'test.dmg'
-    "#{html}#{file}"
+    "#{html}test.dmg"
   end
 
   name 'Photoshop'
