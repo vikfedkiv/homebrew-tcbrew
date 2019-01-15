@@ -3,7 +3,7 @@ cask 'photoshop' do
   sha256 :no_check
 
   url do
-    require_relative './url.txt'
+    require_relative 'url.rb'
     $url+'test.dmg'
   end
 
