@@ -1,12 +1,16 @@
-class Photoshop < Cask
+cask 'photoshop' do
+  version :latest
+  sha256 :no_check
+
   url do
     require 'open-uri'
     base_url = open('url.txt') { |f| f.read }
-    file = Adobe%20Photoshop.dmg
+    file = test.dmg
     "#{base_url}#{file}"
   end
-  homepage 'https://testtc.com'
-  version '201901'  
-  no_checksum
-  link 'Photoshop.app'
+
+  name 'Photoshop'
+  homepage 'https://www.testtc.com/'
+
+  app 'Photoshop.app'
 end
