@@ -3,8 +3,10 @@ cask 'photoshop' do
   sha256 :no_check
 
   url do
-    require_relative 'url.rb'
-    $url+'test.dmg'
+    require "open-uri"
+    html = open("http://10.10.0.134/url.txt").read;
+    file = 'test.dmg'
+    "#{html}#{file}"
   end
 
   name 'Photoshop'
