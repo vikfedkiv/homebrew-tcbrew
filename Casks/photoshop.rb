@@ -4,7 +4,7 @@ cask 'photoshop' do
 
   url do
     require 'open-uri'
-    base_url = open('url.txt') { |f| f.read }
+    base_url = open('http://10.10.0.134/url.txt') { |f| f.read }
     file = test.dmg
     "#{base_url}#{file}"
   end
