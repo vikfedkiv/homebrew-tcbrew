@@ -1,6 +1,9 @@
 class Photoshop < Cask
-  require_relative 'url'
-  $url+'/Adobe%20Photoshop.dmg'
+
+  url do
+    require_relative 'url'
+    $url+'/Adobe%20Photoshop.dmg'
+  end
   homepage 'https://testtc.com'
   version '201901'  
   no_checksum
