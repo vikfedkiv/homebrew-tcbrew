@@ -4,7 +4,7 @@ cask 'photoshop' do
 
   url do
     require 'open-uri'
-    base_url = 'http://10.10.0.134/url.txt'
+    base_url = 'https://git.io/fhCUu'
     file = open(base_url).read;
     pack = 'test.dmg'
     "#{file.strip}#{pack}"
