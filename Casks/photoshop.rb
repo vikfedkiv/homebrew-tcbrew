@@ -3,10 +3,11 @@ cask 'photoshop' do
   sha256 :no_check
 
   url do
-    require "open-uri"
-    html = open("http://10.10.0.134/url.txt").read
-    html.strip
-    "#{html}test.dmg"
+    require 'open-uri'
+    base_url = 'http://10.10.0.134/url.txt'
+    file = open(base_url).read;
+    pack = 'test.dmg'
+    "#{file.strip}#{pack}"
   end
 
   name 'Photoshop'
