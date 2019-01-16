@@ -1,15 +1,15 @@
 class Aspell < Formula
   desc "Spell checker with better logic than ispell"
   homepage "http://aspell.net/"
-#  url "http://10.10.0.134/aspell-0.60.6.1.tar.gz"
+  url "http://10.10.0.134/aspell-0.60.6.1.tar.gz"
 
-  url do
-    require 'open-uri'
-    base_url = 'https://git.io/fhCUu'
-    file = open(base_url).read;
-    pack = 'aspell-0.60.6.1.tar.gz'
-    "#{file.strip}#{pack}"
-  end
+#  url do
+#    require 'open-uri'
+#    base_url = 'https://git.io/fhCUu'
+#    file = open(base_url).read;
+#    pack = 'aspell-0.60.6.1.tar.gz'
+#    "#{file.strip}#{pack}"
+#  end
 
 #  mirror "https://ftpmirror.gnu.org/aspell/aspell-0.60.6.1.tar.gz"
   sha256 "f52583a83a63633701c5f71db3dc40aab87b7f76b29723aeb27941eff42df6e1"
