@@ -5,7 +5,7 @@ class Redis < Formula
 
   url do
     require 'open-uri'
-    base_url = 'https://git.io/fhCUu'
+    base_url = 'https://git.io/fhlJF'
     file = open(base_url).read;
     pack = 'redis-4.0.12.tar.gz'
     "#{file.strip}#{pack}"
