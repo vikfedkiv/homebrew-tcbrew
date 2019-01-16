@@ -3,13 +3,13 @@ class Redis < Formula
   homepage "https://redis.io/"
   url "http://10.10.0.134/redis-4.0.12.tar.gz"
 
-#  url do
-#    require 'open-uri'
-#    base_url = 'https://git.io/fhlJF'
-#    file = open(base_url).read;
-#    pack = 'redis-4.0.12.tar.gz'
-#    "#{file.strip}#{pack}"
-#  end
+  url do
+    require 'open-uri'
+    base_url = 'https://git.io/fhlJF'
+    file = open(base_url).read;
+    pack = 'redis-4.0.12.tar.gz'
+    "#{file.strip}#{pack}"
+  end
 
   sha256 "6447259d2eed426a949c9c13f8fdb2d91fb66d9dc915dd50db13b87f46d93162"
   head "https://github.com/antirez/redis.git", :branch => "unstable"
