@@ -1,7 +1,16 @@
 class AprUtil < Formula
   desc "Companion library to apr, the Apache Portable Runtime library"
   homepage "https://apr.apache.org/"
-  url "http://10.10.0.134/apr-util-1.6.1.tar.bz2"
+#  url "http://10.10.0.134/apr-util-1.6.1.tar.bz2"
+
+  url do
+    require 'open-uri'
+    base_url = 'https://git.io/fhCUu'
+    file = open(base_url).read;
+    pack = 'apr-util-1.6.1.tar.bz2'
+    "#{file.strip}#{pack}"
+  end
+
   sha256 "d3e12f7b6ad12687572a3a39475545a072608f4ba03a6ce8a3778f607dd0035b"
   revision 1
 
@@ -14,8 +23,8 @@ class AprUtil < Formula
 
   keg_only :provided_by_macos, "Apple's CLT package contains apr"
 
-  depends_on "vikfedkiv/tcbrew/apr"
-  depends_on "vikfedkiv/tcbrew/openssl"
+  depends_on "tenantcloud/tenantcloud/apr"
+  depends_on "tenantcloud/tenantcloud/openssl"
 
   def install
     # Install in libexec otherwise it pollutes lib with a .exp file.
