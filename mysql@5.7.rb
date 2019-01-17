@@ -1,7 +1,7 @@
 class MysqlAT57 < Formula
   desc "Open source relational database management system"
   homepage "https://dev.mysql.com/doc/refman/5.7/en/"
-  url "http://10.10.0.134/mysql-boost-5.7.24.tar.gz"
+  url "http://10.10.4.242:8081/mysql-boost-5.7.24.tar.gz"
   sha256 "b980dced9c9eb3385cca44870facc220504ca011196c5a19c2bfe43d3f5d6212"
 
 #  bottle do
@@ -13,7 +13,7 @@ class MysqlAT57 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "vikfedkiv/tcbrew/cmake" => :build
+  depends_on "cmake" => :build
   # https://github.com/Homebrew/homebrew-core/issues/1475
   # Needs at least Clang 3.3, which shipped alongside Lion.
   # Note: MySQL themselves don't support anything below El Capitan.

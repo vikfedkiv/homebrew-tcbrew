@@ -1,7 +1,7 @@
 class Boost < Formula
   desc "Collection of portable C++ source libraries"
   homepage "https://www.boost.org/"
-  url "http://10.10.0.134/boost_1_68_0.tar.bz2"
+  url "http://10.10.4.242:8081/boost_1_68_0.tar.bz2"
   sha256 "7f6130bc3cf65f56a618888ce9d5ea704fa10b462be126ad053e80e553d6d8b7"
   revision 1
   head "https://github.com/boostorg/boost.git"

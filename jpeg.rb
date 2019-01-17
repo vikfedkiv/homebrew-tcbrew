@@ -1,7 +1,7 @@
 class Jpeg < Formula
   desc "Image manipulation library"
   homepage "https://www.ijg.org/"
-  url "http://10.10.0.134/jpegsrc.v9c.tar.gz"
+  url "http://10.10.4.242:8081/jpegsrc.v9c.tar.gz"
 #  mirror "https://dl.bintray.com/homebrew/mirror/jpeg-9c.tar.gz"
 #  mirror "https://fossies.org/linux/misc/jpegsrc.v9c.tar.gz"
   sha256 "650250979303a649e21f87b5ccd02672af1ea6954b911342ea491f351ceb7122"

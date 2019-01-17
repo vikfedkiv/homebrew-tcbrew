@@ -1,7 +1,7 @@
 class Unixodbc < Formula
   desc "ODBC 3 connectivity for UNIX"
   homepage "http://www.unixodbc.org/"
-  url "http://10.10.0.134/unixODBC-2.3.7.tar.gz"
+  url "http://10.10.4.242:8081/unixODBC-2.3.7.tar.gz"
   sha256 "45f169ba1f454a72b8fcbb82abd832630a3bf93baa84731cf2949f449e1e3e77"
 
 #  bottle do

@@ -1,7 +1,7 @@
 class Pango < Formula
   desc "Framework for layout and rendering of i18n text"
   homepage "https://www.pango.org/"
-  url "http://10.10.0.134/pango-1.42.4.tar.xz"
+  url "http://10.10.4.242:8081/pango-1.42.4.tar.xz"
   sha256 "1d2b74cd63e8bd41961f2f8d952355aa0f9be6002b52c8aa7699d9f5da597c9d"
 
 #  bottle do

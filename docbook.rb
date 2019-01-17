@@ -1,7 +1,7 @@
 class Docbook < Formula
   desc "Standard SGML representation system for technical documents"
   homepage "https://docbook.org/"
-  url "http://10.10.0.134/docbook-5.0.zip"
+  url "http://10.10.4.242:8081/docbook-5.0.zip"
   sha256 "3dcd65e1f5d9c0c891b3be204fa2bb418ce485d32310e1ca052e81d36623208e"
 
 #  bottle do

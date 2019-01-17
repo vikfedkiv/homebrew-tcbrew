@@ -1,7 +1,7 @@
 class Brotli < Formula
   desc "Generic-purpose lossless compression algorithm by Google"
   homepage "https://github.com/google/brotli"
-  url "http://10.10.0.134/brotli-v1.0.7.tar.gz"
+  url "http://10.10.4.242:8081/brotli-v1.0.7.tar.gz"
   sha256 "4c61bfb0faca87219ea587326c467b95acb25555b53d1a421ffa3c8a9296ee2c"
   head "https://github.com/google/brotli.git"
 
@@ -12,7 +12,7 @@ class Brotli < Formula
 #   sha256 "5f38b687e2e1bc18aeecc6598723bcbf0d6c89385e4b227678bc8d97e60890be" => :sierra
 #  end
 
-  depends_on "vikfedkiv/tcbrew/cmake" => :build
+  depends_on "cmake" => :build
 
   def install
     system "cmake", ".", *std_cmake_args

@@ -5,7 +5,7 @@ class Meson < Formula
   head "https://github.com/mesonbuild/meson.git"
 
   stable do
-    url "http://10.10.0.134/meson-0.49.0.tar.gz"
+    url "http://10.10.4.242:8081/meson-0.49.0.tar.gz"
     sha256 "fb0395c4ac208eab381cd1a20571584bdbba176eb562a7efa9cb17cace0e1551"
 
     # Fix issues with Qt, remove in 0.49.1

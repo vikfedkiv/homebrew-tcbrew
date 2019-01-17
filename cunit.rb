@@ -1,7 +1,7 @@
 class Cunit < Formula
   desc "Lightweight unit testing framework for C"
   homepage "https://cunit.sourceforge.io/"
-  url "http://10.10.0.134/CUnit-2.1-3.tar.bz2"
+  url "http://10.10.4.242:8081/CUnit-2.1-3.tar.bz2"
   sha256 "f5b29137f845bb08b77ec60584fdb728b4e58f1023e6f249a464efa49a40f214"
 
 #  bottle do
@@ -15,9 +15,9 @@ class Cunit < Formula
 #    sha256 "758213aea9b80d97eb4d30da882933e80e69685ae035ef298f2d39bde84eba06" => :mountain_lion
 #  end
 
-  depends_on "vikfedkiv/tcbrew/autoconf" => :build
-  depends_on "vikfedkiv/tcbrew/automake" => :build
-  depends_on "vikfedkiv/tcbrew/libtool" => :build
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
 
   def install
     inreplace "bootstrap", "libtoolize", "glibtoolize"

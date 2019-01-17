@@ -1,11 +1,11 @@
 class Automake < Formula
   desc "Tool for generating GNU Standards-compliant Makefiles"
   homepage "https://www.gnu.org/software/automake/"
-  url "http://10.10.0.134/automake-1.16.1.tar.xz"
+  url "http://10.10.4.242:8081/automake-1.16.1.tar.xz"
   sha256 "5d05bb38a23fd3312b10aea93840feec685bdf4a41146e78882848165d3ae921"
   revision 1
 
-  depends_on "vikfedkiv/tcbrew/autoconf"
+  depends_on "autoconf"
 
   # https://lists.gnu.org/archive/html/bug-automake/2018-04/msg00002.html
   # Remove this when applying any future 1.16.2 update.

@@ -1,7 +1,7 @@
 class Cmake < Formula
   desc "Cross-platform make"
   homepage "https://www.cmake.org/"
-  url "http://10.10.0.134/cmake-3.13.2.tar.gz"
+  url "http://10.10.4.242:8081/cmake-3.13.2.tar.gz"
   sha256 "c925e7d2c5ba511a69f43543ed7b4182a7d446c274c7480d0e42cd933076ae25"
   head "https://cmake.org/cmake.git"
 
@@ -12,7 +12,7 @@ class Cmake < Formula
 #    sha256 "57333ced72341ebd56f68cfdf52eb7b1b4c63d9948c71c8846ee20b4dc63174d" => :sierra
 #  end
 
-  depends_on "vikfedkiv/tcbrew/sphinx-doc" => :build
+  depends_on "sphinx-doc" => :build
 
   # The completions were removed because of problems with system bash
 

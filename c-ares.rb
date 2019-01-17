@@ -1,7 +1,7 @@
 class CAres < Formula
   desc "Asynchronous DNS library"
   homepage "https://c-ares.haxx.se/"
-  url "http://10.10.0.134/c-ares-1.15.0.tar.gz"
+  url "http://10.10.4.242:8081/c-ares-1.15.0.tar.gz"
   sha256 "6cdb97871f2930530c97deb7cf5c8fa4be5a0b02c7cea6e7c7667672a39d6852"
 
 #  bottle do

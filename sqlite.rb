@@ -1,7 +1,7 @@
 class Sqlite < Formula
   desc "Command-line interface for SQLite"
   homepage "https://sqlite.org/"
-  url "http://10.10.0.134/sqlite-autoconf-3260000.tar.gz"
+  url "http://10.10.4.242:8081/sqlite-autoconf-3260000.tar.gz"
   version "3.26.0"
   sha256 "5daa6a3fb7d1e8c767cd59c4ded8da6e4b00c61d3b466d0685e35c4dd6d7bf5d"
 

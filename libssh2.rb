@@ -1,7 +1,7 @@
 class Libssh2 < Formula
   desc "C library implementing the SSH2 protocol"
   homepage "https://libssh2.org/"
-  url "http://10.10.0.134/libssh2-1.8.0.tar.gz"
+  url "http://10.10.4.242:8081/libssh2-1.8.0.tar.gz"
   sha256 "39f34e2f6835f4b992cafe8625073a88e5a28ba78f83e8099610a7b3af4676d4"
 
 #  bottle do

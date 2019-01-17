@@ -3,7 +3,7 @@ class MesonInternal < Formula
 
   desc "Fast and user friendly build system"
   homepage "https://mesonbuild.com/"
-  url "http://10.10.0.134/meson-0.46.1.tar.gz"
+  url "http://10.10.4.242:8081/meson-0.46.1.tar.gz"
   sha256 "19497a03e7e5b303d8d11f98789a79aba59b5ad4a81bd00f4d099be0212cee78"
 
 #  bottle do

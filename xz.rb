@@ -3,7 +3,7 @@
 class Xz < Formula
   desc "General-purpose data compression with high compression ratio"
   homepage "https://tukaani.org/xz/"
-  url "http://10.10.0.134/xz-5.2.4.tar.gz"
+  url "http://10.10.4.242:8081/xz-5.2.4.tar.gz"
 #  mirror "https://tukaani.org/xz/xz-5.2.4.tar.gz"
   sha256 "b512f3b726d3b37b6dc4c8570e137b9311e7552e8ccbab4d39d47ce5f4177145"
 

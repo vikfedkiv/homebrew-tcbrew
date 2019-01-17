@@ -1,7 +1,7 @@
 class RedisAT40 < Formula
   desc "Persistent key-value database, with built-in net interface"
   homepage "https://redis.io/"
-  url "http://10.10.0.134/redis-4.0.12.tar.gz"
+  url "http://10.10.4.242:8081/redis-4.0.12.tar.gz"
   sha256 "d11767986ba90b7bad6cc8bc67419a3900d86c047a453fab1deedb71875ff65c"
 
 #  bottle do

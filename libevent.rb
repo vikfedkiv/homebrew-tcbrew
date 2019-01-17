@@ -1,7 +1,7 @@
 class Libevent < Formula
   desc "Asynchronous event library"
   homepage "https://libevent.org/"
-  url "http://10.10.0.134/libevent-2.1.8-stable.tar.gz"
+  url "http://10.10.4.242:8081/libevent-2.1.8-stable.tar.gz"
   sha256 "316ddb401745ac5d222d7c529ef1eada12f58f6376a66c1118eee803cb70f83d"
 
 #  bottle do

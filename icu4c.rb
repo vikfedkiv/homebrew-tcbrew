@@ -1,7 +1,7 @@
 class Icu4c < Formula
   desc "C/C++ and Java libraries for Unicode and globalization"
   homepage "https://ssl.icu-project.org/"
-  url "http://10.10.0.134/icu4c-63_1-src.tgz"
+  url "http://10.10.4.242:8081/icu4c-63_1-src.tgz"
 #  mirror "https://github.com/unicode-org/icu/releases/download/release-63-1/icu4c-63_1-src.tgz"
   version "63.1"
   sha256 "05c490b69454fce5860b7e8e2821231674af0a11d7ef2febea9a32512998cb9d"

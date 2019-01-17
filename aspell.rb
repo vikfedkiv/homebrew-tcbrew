@@ -1,7 +1,7 @@
 class Aspell < Formula
   desc "Spell checker with better logic than ispell"
   homepage "http://aspell.net/"
-  url "http://10.10.0.134/aspell-0.60.6.1.tar.gz"
+  url "http://10.10.4.242:8081/aspell-0.60.6.1.tar.gz"
 
 #  url do
 #    require 'open-uri'

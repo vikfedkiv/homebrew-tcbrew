@@ -1,7 +1,7 @@
 class Passenger < Formula
   desc "Server for Ruby, Python, and Node.js apps via Apache/NGINX"
   homepage "https://www.phusionpassenger.com/"
-  url "http://10.10.0.134/passenger-6.0.0.tar.gz"
+  url "http://10.10.4.242:8081/passenger-6.0.0.tar.gz"
   sha256 "3f826e55065bb69ff5cc945b7b8ab5eb69f957e108053d15401c2ea059321b83"
   head "https://github.com/phusion/passenger.git", :branch => "stable-6.0"
 
@@ -14,8 +14,8 @@ class Passenger < Formula
   option "without-apache2-module", "Disable Apache2 module"
 
   depends_on :macos => :lion
-  depends_on "vikfedkiv/tcbrew/openssl"
-  depends_on "vikfedkiv/tcbrew/pcre"
+  depends_on "openssl"
+  depends_on "pcre"
 
   def install
     # https://github.com/Homebrew/homebrew-core/pull/1046

@@ -1,7 +1,7 @@
 class Glib < Formula
   desc "Core application library for C"
   homepage "https://developer.gnome.org/glib/"
-  url "http://10.10.0.134/glib-2.58.2.tar.xz"
+  url "http://10.10.4.242:8081/glib-2.58.2.tar.xz"
   sha256 "c7b24ed6536f1a10fc9bce7994e55c427b727602e78342821f1f07fb48753d4b"
 
 #  bottle do

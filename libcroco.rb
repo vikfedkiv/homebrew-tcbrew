@@ -1,7 +1,7 @@
 class Libcroco < Formula
   desc "CSS parsing and manipulation toolkit for GNOME"
   homepage "http://www.linuxfromscratch.org/blfs/view/svn/general/libcroco.html"
-  url "http://10.10.0.134/libcroco-0.6.12.tar.xz"
+  url "http://10.10.4.242:8081/libcroco-0.6.12.tar.xz"
   sha256 "ddc4b5546c9fb4280a5017e2707fbd4839034ed1aba5b7d4372212f34f84f860"
 
 #  bottle do

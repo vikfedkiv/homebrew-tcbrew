@@ -1,7 +1,7 @@
 class CurlOpenssl < Formula
   desc "Get a file from an HTTP, HTTPS or FTP server"
   homepage "https://curl.haxx.se/"
-  url "http://10.10.0.134/curl-7.63.0.tar.bz2"
+  url "http://10.10.4.242:8081/curl-7.63.0.tar.bz2"
   sha256 "9bab7ed4ecff77020a312d84cc5fb7eb02d58419d218f267477a724a17fd8dd8"
 
 #  bottle do

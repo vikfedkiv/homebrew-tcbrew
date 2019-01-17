@@ -1,7 +1,7 @@
 class Openssl < Formula
   desc "SSL/TLS cryptography library"
   homepage "https://openssl.org/"
-  url "http://10.10.0.134/openssl-1.0.2q.tar.gz"
+  url "http://10.10.4.242:8081/openssl-1.0.2q.tar.gz"
 #  mirror "https://dl.bintray.com/homebrew/mirror/openssl--1.0.2q.tar.gz"
 #  mirror "https://www.mirrorservice.org/sites/ftp.openssl.org/source/openssl-1.0.2q.tar.gz"
 #  mirror "http://artfiles.org/openssl.org/source/openssl-1.0.2q.tar.gz"

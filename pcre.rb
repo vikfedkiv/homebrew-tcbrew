@@ -1,7 +1,7 @@
 class Pcre < Formula
   desc "Perl compatible regular expressions library"
   homepage "https://www.pcre.org/"
-  url "http://10.10.0.134/pcre-8.42.tar.bz2"
+  url "http://10.10.4.242:8081/pcre-8.42.tar.bz2"
   sha256 "2cd04b7c887808be030254e8d77de11d3fe9d4505c39d4b15d2664ffe8bf9301"
 
   bottle do
@@ -15,9 +15,9 @@ class Pcre < Formula
   head do
     url "svn://vcs.exim.org/pcre/code/trunk"
 
-    depends_on "vikfedkiv/tcbrew/autoconf" => :build
-    depends_on "vikfedkiv/tcbrew/automake" => :build
-    depends_on "vikfedkiv/tcbrew/libtool" => :build
+    depends_on "autoconf" => :build
+    depends_on "automake" => :build
+    depends_on "libtool" => :build
   end
 
   def install

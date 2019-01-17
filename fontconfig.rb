@@ -1,7 +1,7 @@
 class Fontconfig < Formula
   desc "XML-based font configuration API for X Windows"
   homepage "https://wiki.freedesktop.org/www/Software/fontconfig/"
-  url "http://10.10.0.134/fontconfig-2.13.1.tar.bz2"
+  url "http://10.10.4.242:8081/fontconfig-2.13.1.tar.bz2"
   sha256 "f655dd2a986d7aa97e052261b36aa67b0a64989496361eca8d604e6414006741"
 
   # The bottle tooling is too lenient and thinks fontconfig

@@ -1,7 +1,7 @@
 class SphinxDoc < Formula
   desc "Tool to create intelligent and beautiful documentation"
   homepage "https://www.sphinx-doc.org/"
-  url "http://10.10.0.134/Sphinx-1.8.3.tar.gz"
+  url "http://10.10.4.242:8081/Sphinx-1.8.3.tar.gz"
   sha256 "c4cb17ba44acffae3d3209646b6baec1e215cad3065e852c68cc569d4df1b9f8"
 
 #  bottle do
@@ -16,7 +16,7 @@ class SphinxDoc < Formula
     Users are advised to use `pip` to install sphinx-doc
   EOS
 
-  depends_on "vikfedkiv/tcbrew/python@2" if MacOS.version <= :snow_leopard
+  depends_on "python@2" if MacOS.version <= :snow_leopard
 
   # generated from sphinx, setuptools, numpydoc and python-docs-theme
   resource "setuptools" do

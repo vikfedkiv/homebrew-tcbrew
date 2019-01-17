@@ -1,7 +1,7 @@
 class HicolorIconTheme < Formula
   desc "Fallback theme for FreeDesktop.org icon themes"
   homepage "https://wiki.freedesktop.org/www/Software/icon-theme/"
-  url "http://10.10.0.134/hicolor-icon-theme-0.17.tar.xz"
+  url "http://10.10.4.242:8081/hicolor-icon-theme-0.17.tar.xz"
   sha256 "317484352271d18cbbcfac3868eab798d67fff1b8402e740baa6ff41d588a9d8"
 
 #  bottle do

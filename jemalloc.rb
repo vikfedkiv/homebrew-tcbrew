@@ -1,7 +1,7 @@
 class Jemalloc < Formula
   desc "malloc implementation emphasizing fragmentation avoidance"
   homepage "http://jemalloc.net/"
-  url "http://10.10.0.134/jemalloc-5.1.0.tar.bz2"
+  url "http://10.10.4.242:8081/jemalloc-5.1.0.tar.bz2"
   sha256 "5396e61cc6103ac393136c309fae09e44d74743c86f90e266948c50f3dbb7268"
 
 #  bottle do
@@ -15,8 +15,8 @@ class Jemalloc < Formula
   head do
     url "https://github.com/jemalloc/jemalloc.git", :branch => "dev"
 
-    depends_on "vikfedkiv/tcbrew/autoconf" => :build
-    depends_on "vikfedkiv/tcbrew/docbook-xsl" => :build
+    depends_on "autoconf" => :build
+    depends_on "docbook-xsl" => :build
   end
 
   def install

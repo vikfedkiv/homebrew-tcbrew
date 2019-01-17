@@ -1,7 +1,7 @@
 class Libtiff < Formula
   desc "TIFF library and utilities"
   homepage "http://libtiff.maptools.org/"
-  url "http://10.10.0.134/tiff-4.0.10.tar.gz"
+  url "http://10.10.4.242:8081/tiff-4.0.10.tar.gz"
 #  mirror "https://fossies.org/linux/misc/tiff-4.0.10.tar.gz"
   sha256 "2c52d11ccaf767457db0c46795d9c7d1a8d8f76f68b0b800a3dfe45786b996e4"
 

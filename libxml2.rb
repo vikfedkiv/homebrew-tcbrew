@@ -1,7 +1,7 @@
 class Libxml2 < Formula
   desc "GNOME XML library"
   homepage "http://xmlsoft.org/"
-  url "http://10.10.0.134/libxml2-2.9.8.tar.gz"
+  url "http://10.10.4.242:8081/libxml2-2.9.8.tar.gz"
 #  mirror "https://ftp.osuosl.org/pub/blfs/conglomeration/libxml2/libxml2-2.9.8.tar.gz"
   sha256 "0b74e51595654f958148759cfef0993114ddccccbb6f31aee018f3558e8e2732"
   revision 1

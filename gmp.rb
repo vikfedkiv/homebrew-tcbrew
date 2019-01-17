@@ -1,7 +1,7 @@
 class Gmp < Formula
   desc "GNU multiple precision arithmetic library"
   homepage "https://gmplib.org/"
-  url "http://10.10.0.134/gmp-6.1.2.tar.xz"
+  url "http://10.10.4.242:8081/gmp-6.1.2.tar.xz"
 #  mirror "https://ftp.gnu.org/gnu/gmp/gmp-6.1.2.tar.xz"
   sha256 "87b565e89a9a684fe4ebeeddb8399dce2599f9c9049854ca8c0dfbdea0e21912"
   revision 2

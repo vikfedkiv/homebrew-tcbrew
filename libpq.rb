@@ -1,7 +1,7 @@
 class Libpq < Formula
   desc "Postgres C API library"
   homepage "https://www.postgresql.org/docs/11/static/libpq.html"
-  url "http://10.10.0.134/postgresql-11.1.tar.bz2"
+  url "http://10.10.4.242:8081/postgresql-11.1.tar.bz2"
   sha256 "90815e812874831e9a4bf6e1136bf73bc2c5a0464ef142e2dfea40cda206db08"
 
 #  bottle do

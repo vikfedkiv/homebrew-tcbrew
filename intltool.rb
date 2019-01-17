@@ -1,7 +1,7 @@
 class Intltool < Formula
   desc "String tool"
   homepage "https://wiki.freedesktop.org/www/Software/intltool"
-  url "http://10.10.0.134/intltool-0.51.0.tar.gz"
+  url "http://10.10.4.242:8081/intltool-0.51.0.tar.gz"
   sha256 "67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd"
 
 #  bottle do

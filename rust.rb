@@ -3,7 +3,7 @@ class Rust < Formula
   homepage "https://www.rust-lang.org/"
 
   stable do
-    url "http://10.10.0.134/rustc-1.31.1-src.tar.gz"
+    url "http://10.10.4.242:8081/rustc-1.31.1-src.tar.gz"
     sha256 "91d2fc22f08d986adab7a54eb3a6a9b99e490f677d2d092e5b9e4e069c23686a"
 
     resource "cargo" do

@@ -1,7 +1,7 @@
 class PhpAT71 < Formula
   desc "General-purpose scripting language"
   homepage "https://secure.php.net/"
-  url "http://10.10.0.134/php-7.1.25.tar.xz"
+  url "http://10.10.4.242:8081/php-7.1.25.tar.xz"
   sha256 "0fd8dad1903cd0b2d615a1fe4209f99e53b7292403c8ffa1919c0f4dd1eada88"
 
 #  bottle do
@@ -12,32 +12,32 @@ class PhpAT71 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "vikfedkiv/tcbrew/httpd" => [:build, :test]
-  depends_on "vikfedkiv/tcbrew/pkg-config" => :build
-  depends_on "vikfedkiv/tcbrew/apr"
-  depends_on "vikfedkiv/tcbrew/apr-util"
-  depends_on "vikfedkiv/tcbrew/aspell"
-  depends_on "vikfedkiv/tcbrew/autoconf"
-  depends_on "vikfedkiv/tcbrew/curl-openssl"
-  depends_on "vikfedkiv/tcbrew/freetds"
-  depends_on "vikfedkiv/tcbrew/freetype"
-  depends_on "vikfedkiv/tcbrew/gettext"
-  depends_on "vikfedkiv/tcbrew/glib"
-  depends_on "vikfedkiv/tcbrew/gmp"
-  depends_on "vikfedkiv/tcbrew/icu4c"
-  depends_on "vikfedkiv/tcbrew/jpeg"
-  depends_on "vikfedkiv/tcbrew/libpng"
-  depends_on "vikfedkiv/tcbrew/libpq"
-  depends_on "vikfedkiv/tcbrew/libtool"
-  depends_on "vikfedkiv/tcbrew/libzip"
-  depends_on "vikfedkiv/tcbrew/mcrypt"
-  depends_on "vikfedkiv/tcbrew/openldap"
-  depends_on "vikfedkiv/tcbrew/openssl"
-  depends_on "vikfedkiv/tcbrew/pcre"
-  depends_on "vikfedkiv/tcbrew/sqlite"
-  depends_on "vikfedkiv/tcbrew/tidy-html5"
-  depends_on "vikfedkiv/tcbrew/unixodbc"
-  depends_on "vikfedkiv/tcbrew/webp"
+  depends_on "httpd" => [:build, :test]
+  depends_on "pkg-config" => :build
+  depends_on "apr"
+  depends_on "apr-util"
+  depends_on "aspell"
+  depends_on "autoconf"
+  depends_on "curl-openssl"
+  depends_on "freetds"
+  depends_on "freetype"
+  depends_on "gettext"
+  depends_on "glib"
+  depends_on "gmp"
+  depends_on "icu4c"
+  depends_on "jpeg"
+  depends_on "libpng"
+  depends_on "libpq"
+  depends_on "libtool"
+  depends_on "libzip"
+  depends_on "mcrypt"
+  depends_on "openldap"
+  depends_on "openssl"
+  depends_on "pcre"
+  depends_on "sqlite"
+  depends_on "tidy-html5"
+  depends_on "unixodbc"
+  depends_on "webp"
 
   # PHP build system incorrectly links system libraries
   # see https://github.com/php/php-src/pull/3472

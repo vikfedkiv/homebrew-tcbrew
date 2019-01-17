@@ -1,7 +1,7 @@
 class Libpng < Formula
   desc "Library for manipulating PNG images"
   homepage "http://www.libpng.org/pub/png/libpng.html"
-  url "http://10.10.0.134/libpng-1.6.36.tar.xz"
+  url "http://10.10.4.242:8081/libpng-1.6.36.tar.xz"
 #  mirror "https://sourceforge.mirrorservice.org/l/li/libpng/libpng16/1.6.36/libpng-1.6.36.tar.xz"
   sha256 "eceb924c1fa6b79172fdfd008d335f0e59172a86a66481e09d4089df872aa319"
 

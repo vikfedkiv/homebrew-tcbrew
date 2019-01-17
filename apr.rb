@@ -1,7 +1,7 @@
 class Apr < Formula
   desc "Apache Portable Runtime library"
   homepage "https://apr.apache.org/"
-  url "http://10.10.0.134/apr-1.6.5.tar.bz2"
+  url "http://10.10.4.242:8081/apr-1.6.5.tar.bz2"
 
 #  url do
 #    require 'open-uri'

@@ -3,7 +3,7 @@ cask 'sequelpro' do
   sha256 '7b34fd63c13e9e9ca4f87d548241ff9df9a266b554af23549efd7be006f387c6'
 
   # github.com/sequelpro/sequelpro was verified as official when first introduced to the cask
-  url "http://10.10.0.134/sequel-pro-1.1.2.dmg"
+  url "http://10.10.4.242:8081/sequel-pro-1.1.2.dmg"
 #  appcast 'https://github.com/sequelpro/sequelpro/releases.atom'
   name 'Sequel Pro'
   homepage 'https://www.sequelpro.com/'

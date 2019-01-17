@@ -1,7 +1,7 @@
 class Fribidi < Formula
   desc "Implementation of the Unicode BiDi algorithm"
   homepage "https://github.com/fribidi/fribidi"
-  url "http://10.10.0.134/fribidi-1.0.5.tar.bz2"
+  url "http://10.10.4.242:8081/fribidi-1.0.5.tar.bz2"
   sha256 "6a64f2a687f5c4f203a46fa659f43dd43d1f8b845df8d723107e8a7e6158e4ce"
 
 #  bottle do

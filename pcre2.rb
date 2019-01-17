@@ -1,7 +1,7 @@
 class Pcre2 < Formula
   desc "Perl compatible regular expressions library with a new API"
   homepage "https://www.pcre.org/"
-  url "http://10.10.0.134/pcre2-10.32.tar.bz2"
+  url "http://10.10.4.242:8081/pcre2-10.32.tar.bz2"
   sha256 "f29e89cc5de813f45786580101aaee3984a65818631d4ddbda7b32f699b87c2e"
   head "svn://vcs.exim.org/pcre2/code/trunk"
 

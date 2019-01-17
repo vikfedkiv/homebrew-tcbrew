@@ -1,7 +1,7 @@
 class Libzip < Formula
   desc "C library for reading, creating, and modifying zip archives"
   homepage "https://libzip.org/"
-  url "http://10.10.0.134/libzip-1.5.1.tar.gz"
+  url "http://10.10.4.242:8081/libzip-1.5.1.tar.gz"
   sha256 "47eaa45faa448c72bd6906e5a096846c469a185f293cafd8456abb165841b3f2"
 
 #  bottle do

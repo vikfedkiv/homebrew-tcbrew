@@ -1,7 +1,7 @@
 class DocbookXsl < Formula
   desc "XML vocabulary to create presentation-neutral documents"
   homepage "https://docbook.sourceforge.io/"
-  url "http://10.10.0.134/docbook-xsl-1.79.1.tar.bz2"
+  url "http://10.10.4.242:8081/docbook-xsl-1.79.1.tar.bz2"
   sha256 "725f452e12b296956e8bfb876ccece71eeecdd14b94f667f3ed9091761a4a968"
 
 #  bottle do

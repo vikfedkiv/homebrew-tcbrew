@@ -3,7 +3,7 @@
 class Qt < Formula
   desc "Cross-platform application and UI framework"
   homepage "https://www.qt.io/"
-  url "http://10.10.0.134/qt-everywhere-src-5.12.0.tar.xz"
+  url "http://10.10.4.242:8081/qt-everywhere-src-5.12.0.tar.xz"
 #  mirror "https://qt.mirror.constant.com/archive/qt/5.12/5.12.0/single/qt-everywhere-src-5.12.0.tar.xz"
 #  mirror "https://ftp.osuosl.org/pub/blfs/conglomeration/qt5/qt-everywhere-src-5.12.0.tar.xz"
   sha256 "356f42d9087718f22f03d13d0c2cdfb308f91dc3cf0c6318bed33f2094cd9d6c"

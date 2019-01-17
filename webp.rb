@@ -1,7 +1,7 @@
 class Webp < Formula
   desc "Image format providing lossless and lossy compression for web images"
   homepage "https://developers.google.com/speed/webp/"
-  url "http://10.10.0.134/libwebp-1.0.1.tar.gz"
+  url "http://10.10.4.242:8081/libwebp-1.0.1.tar.gz"
   sha256 "8c744a5422dbffa0d1f92e90b34186fb8ed44db93fbacb55abd751ac8808d922"
 
 #  bottle do

@@ -1,7 +1,7 @@
 class GdkPixbuf < Formula
   desc "Toolkit for image loading and pixel buffer manipulation"
   homepage "https://gtk.org"
-  url "http://10.10.0.134/gdk-pixbuf-2.38.0.tar.xz"
+  url "http://10.10.4.242:8081/gdk-pixbuf-2.38.0.tar.xz"
   sha256 "dd50973c7757bcde15de6bcd3a6d462a445efd552604ae6435a0532fbbadae47"
 
 #  bottle do

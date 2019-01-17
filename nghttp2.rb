@@ -1,7 +1,7 @@
 class Nghttp2 < Formula
   desc "HTTP/2 C Library"
   homepage "https://nghttp2.org/"
-  url "http://10.10.0.134/nghttp2-1.35.1.tar.xz"
+  url "http://10.10.4.242:8081/nghttp2-1.35.1.tar.xz"
   sha256 "9b7f5b09c3ca40a46118240bf476a5babf4bd93a1e4fde2337c308c4c5c3263a"
 
 #  bottle do
@@ -13,9 +13,9 @@ class Nghttp2 < Formula
   head do
     url "https://github.com/nghttp2/nghttp2.git"
 
-    depends_on "vikfedkiv/tcbrew/autoconf" => :build
-    depends_on "vikfedkiv/tcbrew/automake" => :build
-    depends_on "vikfedkiv/tcbrew/libtool" => :build
+    depends_on "autoconf" => :build
+    depends_on "automake" => :build
+    depends_on "libtool" => :build
   end
 
   option "with-python", "Build python3 bindings"

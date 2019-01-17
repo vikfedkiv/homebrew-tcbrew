@@ -1,7 +1,7 @@
 class Gts < Formula
   desc "GNU triangulated surface library"
   homepage "https://gts.sourceforge.io/"
-  url "http://10.10.0.134/gts-0.7.6.tar.gz"
+  url "http://10.10.4.242:8081/gts-0.7.6.tar.gz"
   sha256 "059c3e13e3e3b796d775ec9f96abdce8f2b3b5144df8514eda0cc12e13e8b81e"
 
 #  bottle do

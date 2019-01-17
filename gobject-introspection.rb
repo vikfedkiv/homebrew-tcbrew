@@ -1,7 +1,7 @@
 class GobjectIntrospection < Formula
   desc "Generate introspection data for GObject libraries"
   homepage "https://wiki.gnome.org/Projects/GObjectIntrospection"
-  url "http://10.10.0.134/gobject-introspection-1.58.3.tar.xz"
+  url "http://10.10.4.242:8081/gobject-introspection-1.58.3.tar.xz"
   sha256 "025b632bbd944dcf11fc50d19a0ca086b83baf92b3e34936d008180d28cdc3c8"
 
 #  bottle do

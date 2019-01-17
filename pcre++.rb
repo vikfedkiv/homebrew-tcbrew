@@ -1,7 +1,7 @@
 class Pcrexx < Formula
   desc "C++ wrapper for the Perl Compatible Regular Expressions"
   homepage "https://www.daemon.de/PCRE"
-  url "http://10.10.0.134/pcre%2B%2B-0.9.5.tar.gz"
+  url "http://10.10.4.242:8081/pcre%2B%2B-0.9.5.tar.gz"
   sha256 "77ee9fc1afe142e4ba2726416239ced66c3add4295ab1e5ed37ca8a9e7bb638a"
 
 #  bottle do
@@ -14,10 +14,10 @@ class Pcrexx < Formula
 #    sha256 "fd7050ff36dbb4c5605a4f0a9bb5d5de3ea01e6b959dd2026297a9ae35b99f51" => :mavericks
 #  end
 
-  depends_on "vikfedkiv/tcbrew/autoconf" => :build
-  depends_on "vikfedkiv/tcbrew/automake" => :build
-  depends_on "vikfedkiv/tcbrew/libtool" => :build
-  depends_on "vikfedkiv/tcbrew/pcre"
+  depends_on "autoconf" => :build
+  depends_on "automake" => :build
+  depends_on "libtool" => :build
+  depends_on "pcre"
 
   # Fix building with libc++. Patch sent to maintainer.
   patch :DATA
