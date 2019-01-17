@@ -11,7 +11,7 @@ class Unixodbc < Formula
 #    sha256 "85be7365deb1229df2f46ccaa71ed1a5f6083135649e42a4b345ce9e55db4140" => :el_capitan
 #  end
 
-  depends_on "libtool"
+  depends_on "tenantcloud/tenantcloud/libtool"
 
   keg_only "shadows system iODBC header files" if MacOS.version < :mavericks
 

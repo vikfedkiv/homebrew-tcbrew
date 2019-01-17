@@ -13,26 +13,26 @@ class Nghttp2 < Formula
   head do
     url "https://github.com/nghttp2/nghttp2.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
   option "with-python", "Build python3 bindings"
 
   deprecated_option "with-python3" => "with-python"
 
-  depends_on "cunit" => :build
-  depends_on "pkg-config" => :build
-  depends_on "sphinx-doc" => :build
-  depends_on "c-ares"
-  depends_on "jansson"
-  depends_on "jemalloc"
-  depends_on "libev"
-  depends_on "libevent"
-  depends_on "libxml2" if MacOS.version <= :lion
-  depends_on "openssl"
-  depends_on "python" => :optional
+  depends_on "tenantcloud/tenantcloud/cunit" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/sphinx-doc" => :build
+  depends_on "tenantcloud/tenantcloud/c-ares"
+  depends_on "tenantcloud/tenantcloud/jansson"
+  depends_on "tenantcloud/tenantcloud/jemalloc"
+  depends_on "tenantcloud/tenantcloud/libev"
+  depends_on "tenantcloud/tenantcloud/libevent"
+  depends_on "tenantcloud/tenantcloud/libxml2" if MacOS.version <= :lion
+  depends_on "tenantcloud/tenantcloud/openssl"
+  depends_on "tenantcloud/tenantcloud/python" => :optional
 
   resource "Cython" do
     url "https://files.pythonhosted.org/packages/f0/f8/7f406aac4c6919d5a4ce16509bbe059cd256e9ad94bae5ccac14094b7c51/Cython-0.29.1.tar.gz"

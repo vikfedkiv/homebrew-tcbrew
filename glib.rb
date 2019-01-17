@@ -12,14 +12,14 @@ class Glib < Formula
 
   # autoconf, automake and libtool can be removed when
   # bug 780271 is fixed and gio.patch is modified accordingly
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "gtk-doc" => :build
-  depends_on "libtool" => :build
-  depends_on "pkg-config" => :build
-  depends_on "gettext"
-  depends_on "libffi"
-  depends_on "pcre"
+  depends_on "tenantcloud/tenantcloud/autoconf" => :build
+  depends_on "tenantcloud/tenantcloud/automake" => :build
+  depends_on "tenantcloud/tenantcloud/gtk-doc" => :build
+  depends_on "tenantcloud/tenantcloud/libtool" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/gettext"
+  depends_on "tenantcloud/tenantcloud/libffi"
+  depends_on "tenantcloud/tenantcloud/pcre"
 
   # https://bugzilla.gnome.org/show_bug.cgi?id=673135 Resolved as wontfix,
   # but needed to fix an assumption about the location of the d-bus machine

@@ -12,7 +12,7 @@ class Brotli < Formula
 #   sha256 "5f38b687e2e1bc18aeecc6598723bcbf0d6c89385e4b227678bc8d97e60890be" => :sierra
 #  end
 
-  depends_on "cmake" => :build
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
 
   def install
     system "cmake", ".", *std_cmake_args

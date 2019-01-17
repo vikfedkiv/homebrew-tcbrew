@@ -22,12 +22,12 @@ class Python < Formula
     satisfy { MacOS::CLT.installed? }
   end
 
-  depends_on "pkg-config" => :build
-  depends_on "gdbm"
-  depends_on "openssl"
-  depends_on "readline"
-  depends_on "sqlite"
-  depends_on "xz"
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/gdbm"
+  depends_on "tenantcloud/tenantcloud/openssl"
+  depends_on "tenantcloud/tenantcloud/readline"
+  depends_on "tenantcloud/tenantcloud/sqlite"
+  depends_on "tenantcloud/tenantcloud/xz"
 
   skip_clean "bin/pip3", "bin/pip-3.4", "bin/pip-3.5", "bin/pip-3.6", "bin/pip-3.7"
   skip_clean "bin/easy_install3", "bin/easy_install-3.4", "bin/easy_install-3.5", "bin/easy_install-3.6", "bin/easy_install-3.7"

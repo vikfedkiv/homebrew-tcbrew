@@ -11,15 +11,15 @@ class Gtkx3 < Formula
 #    sha256 "71b0a4510954ad5c9010f9e4b019b52460c44bc082cba2ec74af25345b254ea8" => :sierra
 #  end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "pkg-config" => :build
-  depends_on "atk"
-  depends_on "gdk-pixbuf"
-  depends_on "glib"
-  depends_on "gsettings-desktop-schemas"
-  depends_on "hicolor-icon-theme"
-  depends_on "libepoxy"
-  depends_on "pango"
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/atk"
+  depends_on "tenantcloud/tenantcloud/gdk-pixbuf"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/gsettings-desktop-schemas"
+  depends_on "tenantcloud/tenantcloud/hicolor-icon-theme"
+  depends_on "tenantcloud/tenantcloud/libepoxy"
+  depends_on "tenantcloud/tenantcloud/pango"
 
   # see https://gitlab.gnome.org/GNOME/gtk/issues/1517
   patch :DATA

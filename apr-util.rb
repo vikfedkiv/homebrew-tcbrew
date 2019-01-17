@@ -15,8 +15,8 @@ class AprUtil < Formula
 
   keg_only :provided_by_macos, "Apple's CLT package contains apr"
 
-  depends_on "apr"
-  depends_on "openssl"
+  depends_on "tenantcloud/tenantcloud/apr"
+  depends_on "tenantcloud/tenantcloud/openssl"
 
   def install
     # Install in libexec otherwise it pollutes lib with a .exp file.

@@ -11,15 +11,15 @@ class GdkPixbuf < Formula
 #    sha256 "cafc68c2bfb6013f6f6f0fad456eb6454065346f38679b11c23a2fed75e714e6" => :el_capitan
 #  end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "meson-internal" => :build
-  depends_on "ninja" => :build
-  depends_on "pkg-config" => :build
-  depends_on "python" => :build
-  depends_on "glib"
-  depends_on "jpeg"
-  depends_on "libpng"
-  depends_on "libtiff"
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/meson-internal" => :build
+  depends_on "tenantcloud/tenantcloud/ninja" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/python" => :build
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/jpeg"
+  depends_on "tenantcloud/tenantcloud/libpng"
+  depends_on "tenantcloud/tenantcloud/libtiff"
 
   patch do
     url "https://raw.githubusercontent.com/Homebrew/formula-patches/3d39ffd/gdk-pixbuf/meson-patches.diff"

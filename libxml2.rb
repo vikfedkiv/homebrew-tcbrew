@@ -16,15 +16,15 @@ class Libxml2 < Formula
   head do
     url "https://gitlab.gnome.org/GNOME/libxml2.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
-    depends_on "pkg-config" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
+    depends_on "tenantcloud/tenantcloud/pkg-config" => :build
   end
 
   keg_only :provided_by_macos
 
-  depends_on "python"
+  depends_on "tenantcloud/tenantcloud/python"
 
   def install
     system "autoreconf", "-fiv" if build.head?

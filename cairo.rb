@@ -12,17 +12,17 @@ class Cairo < Formula
 
   head do
     url "https://anongit.freedesktop.org/git/cairo", :using => :git
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
-  depends_on "pkg-config" => :build
-  depends_on "fontconfig"
-  depends_on "freetype"
-  depends_on "glib"
-  depends_on "libpng"
-  depends_on "pixman"
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/fontconfig"
+  depends_on "tenantcloud/tenantcloud/freetype"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/libpng"
+  depends_on "tenantcloud/tenantcloud/pixman"
 
   def install
     if build.head?

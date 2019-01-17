@@ -10,11 +10,11 @@ class GobjectIntrospection < Formula
 #    sha256 "597f57f061dec016d686f96106d9eb77d8fd9031d0a0c54ad143a1549858d6c2" => :sierra
 #  end
 
-  depends_on "cairo"
-  depends_on "glib"
-  depends_on "libffi"
-  depends_on "pkg-config"
-  depends_on "python"
+  depends_on "tenantcloud/tenantcloud/cairo"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/libffi"
+  depends_on "tenantcloud/tenantcloud/pkg-config"
+  depends_on "tenantcloud/tenantcloud/python"
 
   resource "tutorial" do
     url "https://gist.github.com/7a0023656ccfe309337a.git",

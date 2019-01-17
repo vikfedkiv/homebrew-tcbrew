@@ -15,10 +15,10 @@ class Netpbm < Formula
 #    sha256 "339679dc504fe630c341c12d96386bc8a0456dc89cf3459166b31ebb8c039e0a" => :sierra
 #  end
 
-  depends_on "jasper"
-  depends_on "jpeg"
-  depends_on "libpng"
-  depends_on "libtiff"
+  depends_on "tenantcloud/tenantcloud/jasper"
+  depends_on "tenantcloud/tenantcloud/jpeg"
+  depends_on "tenantcloud/tenantcloud/libpng"
+  depends_on "tenantcloud/tenantcloud/libtiff"
 
   conflicts_with "jbigkit", :because => "both install `pbm.5` and `pgm.5` files"
 

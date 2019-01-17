@@ -12,7 +12,7 @@ class Cmake < Formula
 #    sha256 "57333ced72341ebd56f68cfdf52eb7b1b4c63d9948c71c8846ee20b4dc63174d" => :sierra
 #  end
 
-  depends_on "sphinx-doc" => :build
+  depends_on "tenantcloud/tenantcloud/sphinx-doc" => :build
 
   # The completions were removed because of problems with system bash
 

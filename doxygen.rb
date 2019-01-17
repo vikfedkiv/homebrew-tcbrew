@@ -22,10 +22,10 @@ class Doxygen < Formula
   deprecated_option "with-libclang" => "with-llvm"
   deprecated_option "with-qt5" => "with-qt"
 
-  depends_on "cmake" => :build
-  depends_on "graphviz" => :optional
-  depends_on "llvm" => :optional
-  depends_on "qt" => :optional
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
+  depends_on "tenantcloud/tenantcloud/graphviz" => :optional
+  depends_on "tenantcloud/tenantcloud/llvm" => :optional
+  depends_on "tenantcloud/tenantcloud/qt" => :optional
 
   def install
     args = std_cmake_args << "-DCMAKE_OSX_DEPLOYMENT_TARGET:STRING=#{MacOS.version}"

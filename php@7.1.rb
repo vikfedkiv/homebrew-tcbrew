@@ -12,32 +12,32 @@ class PhpAT71 < Formula
 
   keg_only :versioned_formula
 
-  depends_on "httpd" => [:build, :test]
-  depends_on "pkg-config" => :build
-  depends_on "apr"
-  depends_on "apr-util"
-  depends_on "aspell"
-  depends_on "autoconf"
-  depends_on "curl-openssl"
-  depends_on "freetds"
-  depends_on "freetype"
-  depends_on "gettext"
-  depends_on "glib"
-  depends_on "gmp"
-  depends_on "icu4c"
-  depends_on "jpeg"
-  depends_on "libpng"
-  depends_on "libpq"
-  depends_on "libtool"
-  depends_on "libzip"
-  depends_on "mcrypt"
-  depends_on "openldap"
-  depends_on "openssl"
-  depends_on "pcre"
-  depends_on "sqlite"
-  depends_on "tidy-html5"
-  depends_on "unixodbc"
-  depends_on "webp"
+  depends_on "tenantcloud/tenantcloud/httpd" => [:build, :test]
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/apr"
+  depends_on "tenantcloud/tenantcloud/apr-util"
+  depends_on "tenantcloud/tenantcloud/aspell"
+  depends_on "tenantcloud/tenantcloud/autoconf"
+  depends_on "tenantcloud/tenantcloud/curl-openssl"
+  depends_on "tenantcloud/tenantcloud/freetds"
+  depends_on "tenantcloud/tenantcloud/freetype"
+  depends_on "tenantcloud/tenantcloud/gettext"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/gmp"
+  depends_on "tenantcloud/tenantcloud/icu4c"
+  depends_on "tenantcloud/tenantcloud/jpeg"
+  depends_on "tenantcloud/tenantcloud/libpng"
+  depends_on "tenantcloud/tenantcloud/libpq"
+  depends_on "tenantcloud/tenantcloud/libtool"
+  depends_on "tenantcloud/tenantcloud/libzip"
+  depends_on "tenantcloud/tenantcloud/mcrypt"
+  depends_on "tenantcloud/tenantcloud/openldap"
+  depends_on "tenantcloud/tenantcloud/openssl"
+  depends_on "tenantcloud/tenantcloud/pcre"
+  depends_on "tenantcloud/tenantcloud/sqlite"
+  depends_on "tenantcloud/tenantcloud/tidy-html5"
+  depends_on "tenantcloud/tenantcloud/unixodbc"
+  depends_on "tenantcloud/tenantcloud/webp"
 
   # PHP build system incorrectly links system libraries
   # see https://github.com/php/php-src/pull/3472

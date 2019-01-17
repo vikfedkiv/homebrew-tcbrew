@@ -110,10 +110,10 @@ class Llvm < Formula
   option "with-lldb", "Build LLDB debugger"
 
   # https://llvm.org/docs/GettingStarted.html#requirement
-  depends_on "cmake" => :build
-  depends_on "libffi"
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
+  depends_on "tenantcloud/tenantcloud/libffi"
 
-  depends_on "python@2" if MacOS.version <= :snow_leopard
+  depends_on "tenantcloud/tenantcloud/python@2" if MacOS.version <= :snow_leopard
 
   if build.with? "lldb"
     depends_on "swig" if MacOS.version >= :lion

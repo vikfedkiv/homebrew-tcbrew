@@ -14,10 +14,10 @@ class Pcrexx < Formula
 #    sha256 "fd7050ff36dbb4c5605a4f0a9bb5d5de3ea01e6b959dd2026297a9ae35b99f51" => :mavericks
 #  end
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "libtool" => :build
-  depends_on "pcre"
+  depends_on "tenantcloud/tenantcloud/autoconf" => :build
+  depends_on "tenantcloud/tenantcloud/automake" => :build
+  depends_on "tenantcloud/tenantcloud/libtool" => :build
+  depends_on "tenantcloud/tenantcloud/pcre"
 
   # Fix building with libc++. Patch sent to maintainer.
   patch :DATA

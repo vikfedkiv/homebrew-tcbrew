@@ -11,8 +11,8 @@ class Jasper < Formula
 #    sha256 "c481b8887b8d29e3c63735dd2151c9246e08f21bf50334033de4a054f700a6db" => :el_capitan
 #  end
 
-  depends_on "cmake" => :build
-  depends_on "jpeg"
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
+  depends_on "tenantcloud/tenantcloud/jpeg"
 
   def install
     mkdir "build" do

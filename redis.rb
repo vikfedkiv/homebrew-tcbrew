@@ -1,16 +1,17 @@
-class Redis < Formula
+class RedisAT40 < Formula
   desc "Persistent key-value database, with built-in net interface"
   homepage "https://redis.io/"
   url "http://10.10.4.242:8081/redis-4.0.12.tar.gz"
-  sha256 "6447259d2eed426a949c9c13f8fdb2d91fb66d9dc915dd50db13b87f46d93162"
-  head "https://github.com/antirez/redis.git", :branch => "unstable"
+  sha256 "d11767986ba90b7bad6cc8bc67419a3900d86c047a453fab1deedb71875ff65c"
 
 #  bottle do
 #    cellar :any_skip_relocation
-#    sha256 "c1e69b93ce41aa87a6da21b3f22cea5df8ab6b49ccd7e5d6678ab84b9aecc0ab" => :mojave
-#    sha256 "0a90d97c6006a0ecfd654644d221caef024c7796f42a3897e4ae2b5d687fa3d1" => :high_sierra
-#    sha256 "c23f0aa21d6c15d60f5395d99c6e6d67f069ac7b3a3d9894b1b48ede6b5c121e" => :sierra
+#    sha256 "2e21e362c8d97338ed0b95bbbf80f81322601411424d32b4ab5023e93cfc9969" => :mojave
+#    sha256 "a735ef4d8cf8f865bf9ab0d538e1eaedc37d18669b99381a7aa3be0e642c72d8" => :high_sierra
+#    sha256 "9453b63fd6dd0230181d047cd3ec6cfa295c739a7176cfd63f510ead98abecc0" => :sierra
 #  end
+
+  keg_only :versioned_formula
 
   def install
     # Architecture isn't detected correctly on 32bit Snow Leopard without help
@@ -31,7 +32,7 @@ class Redis < Formula
     etc.install "sentinel.conf" => "redis-sentinel.conf"
   end
 
-  plist_options :manual => "redis-server #{HOMEBREW_PREFIX}/etc/redis.conf"
+  plist_options :manual => "#{HOMEBREW_PREFIX}/opt/redis@4.0/bin/redis-server #{HOMEBREW_PREFIX}/etc/redis.conf"
 
   def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>

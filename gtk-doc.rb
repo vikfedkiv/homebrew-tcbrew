@@ -12,14 +12,14 @@ class GtkDoc < Formula
 #    sha256 "147ce0fadb0bdebfd1f13e8539c785f67c577b4cc143c21ee599a52f4aa1af33" => :sierra
 #  end
 
-  depends_on "itstool" => :build
-  depends_on "pkg-config" => :build
-  depends_on "docbook"
-  depends_on "docbook-xsl"
-  depends_on "gettext"
-  depends_on "libxml2"
-  depends_on "python"
-  depends_on "source-highlight"
+  depends_on "tenantcloud/tenantcloud/itstool" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/docbook"
+  depends_on "tenantcloud/tenantcloud/docbook-xsl"
+  depends_on "tenantcloud/tenantcloud/gettext"
+  depends_on "tenantcloud/tenantcloud/libxml2"
+  depends_on "tenantcloud/tenantcloud/python"
+  depends_on "tenantcloud/tenantcloud/source-highlight"
 
   resource "six" do
     url "https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz"

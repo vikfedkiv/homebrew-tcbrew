@@ -14,19 +14,19 @@ class Harfbuzz < Formula
   head do
     url "https://github.com/behdad/harfbuzz.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
-    depends_on "ragel" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
+    depends_on "tenantcloud/tenantcloud/ragel" => :build
   end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "pkg-config" => :build
-  depends_on "cairo"
-  depends_on "freetype"
-  depends_on "glib"
-  depends_on "graphite2"
-  depends_on "icu4c"
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/cairo"
+  depends_on "tenantcloud/tenantcloud/freetype"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/graphite2"
+  depends_on "tenantcloud/tenantcloud/icu4c"
 
   resource "ttf" do
     url "https://github.com/behdad/harfbuzz/raw/fc0daafab0336b847ac14682e581a8838f36a0bf/test/shaping/fonts/sha1sum/270b89df543a7e48e206a2d830c0e10e5265c630.ttf"

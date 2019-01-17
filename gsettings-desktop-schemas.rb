@@ -12,12 +12,12 @@ class GsettingsDesktopSchemas < Formula
 #    sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :el_capitan
 #  end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "intltool" => :build
-  depends_on "pkg-config" => :build
-  depends_on "gettext"
-  depends_on "glib"
-  depends_on "libffi"
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/intltool" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/gettext"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/libffi"
 
   def install
     system "./configure", "--disable-dependency-tracking",

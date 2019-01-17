@@ -11,7 +11,7 @@ class Libzip < Formula
 #    sha256 "312f87c8f28237b69080b511d696ba72027e774655eacdd159159001c7941c0d" => :el_capitan
 #  end
 
-  depends_on "cmake" => :build
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
 
   conflicts_with "libtcod", :because => "both install `zip.h` header"
 

@@ -39,10 +39,10 @@ class Rust < Formula
     end
   end
 
-  depends_on "cmake" => :build
-  depends_on "libssh2"
-  depends_on "openssl"
-  depends_on "pkg-config"
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
+  depends_on "tenantcloud/tenantcloud/libssh2"
+  depends_on "tenantcloud/tenantcloud/openssl"
+  depends_on "tenantcloud/tenantcloud/pkg-config"
 
   # According to the official readme, GCC 4.7+ is required
   fails_with :gcc_4_2

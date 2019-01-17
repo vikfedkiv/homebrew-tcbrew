@@ -13,7 +13,7 @@ class Freetype < Formula
 #    sha256 "8f8fbbe028986cebd4a49c399e4861fb85cb6173298ba957172cb1ed915682ab" => :el_capitan
 #  end
 
-  depends_on "libpng"
+  depends_on "tenantcloud/tenantcloud/libpng"
 
   def install
     system "./configure", "--prefix=#{prefix}",

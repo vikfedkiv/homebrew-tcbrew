@@ -15,9 +15,9 @@ class Cunit < Formula
 #    sha256 "758213aea9b80d97eb4d30da882933e80e69685ae035ef298f2d39bde84eba06" => :mountain_lion
 #  end
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "libtool" => :build
+  depends_on "tenantcloud/tenantcloud/autoconf" => :build
+  depends_on "tenantcloud/tenantcloud/automake" => :build
+  depends_on "tenantcloud/tenantcloud/libtool" => :build
 
   def install
     inreplace "bootstrap", "libtoolize", "glibtoolize"

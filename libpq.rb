@@ -12,7 +12,7 @@ class Libpq < Formula
 
   keg_only "conflicts with postgres formula"
 
-  depends_on "openssl"
+  depends_on "tenantcloud/tenantcloud/openssl"
 
   def install
     system "./configure", "--disable-debug",

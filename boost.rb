@@ -13,7 +13,7 @@ class Boost < Formula
 #    sha256 "0c42d1ba47651b72a761218c2e00143bea3c7771c84319a847225b95dc861aa6" => :sierra
 #  end
 
-  depends_on "icu4c"
+  depends_on "tenantcloud/tenantcloud/icu4c"
 
   needs :cxx14
 

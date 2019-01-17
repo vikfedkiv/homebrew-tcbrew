@@ -11,11 +11,11 @@ class Atk < Formula
 #    sha256 "786efff084a599afbdc9ab706da2e64ae1c4fc29110ab8f7379649a9651599e2" => :el_capitan
 #  end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "meson-internal" => :build
-  depends_on "ninja" => :build
-  depends_on "pkg-config" => :build
-  depends_on "glib"
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/meson-internal" => :build
+  depends_on "tenantcloud/tenantcloud/ninja" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/glib"
 
   patch :DATA
 

@@ -15,8 +15,8 @@ class Jemalloc < Formula
   head do
     url "https://github.com/jemalloc/jemalloc.git", :branch => "dev"
 
-    depends_on "autoconf" => :build
-    depends_on "docbook-xsl" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/docbook-xsl" => :build
   end
 
   def install

@@ -13,12 +13,12 @@ class Libevent < Formula
 #    sha256 "ef703db1b4cbdab35b89aabe80c225dd9b7a2c3ea14b1eae681478c5b9df15fe" => :yosemite
 #  end
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "doxygen" => :build
-  depends_on "libtool" => :build
-  depends_on "pkg-config" => :build
-  depends_on "openssl"
+  depends_on "tenantcloud/tenantcloud/autoconf" => :build
+  depends_on "tenantcloud/tenantcloud/automake" => :build
+  depends_on "tenantcloud/tenantcloud/doxygen" => :build
+  depends_on "tenantcloud/tenantcloud/libtool" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/openssl"
 
   conflicts_with "pincaster",
     :because => "both install `event_rpcgen.py` binaries"

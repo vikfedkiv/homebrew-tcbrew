@@ -23,8 +23,8 @@ class Meson < Formula
 #    sha256 "602c437f746f1eab0705836647d2cb6d09d004743945b92db69f87a52c50caac" => :sierra
 #  end
 
-  depends_on "ninja"
-  depends_on "python"
+  depends_on "tenantcloud/tenantcloud/ninja"
+  depends_on "tenantcloud/tenantcloud/python"
 
   def install
     version = Language::Python.major_minor_version("python3")

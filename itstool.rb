@@ -12,10 +12,10 @@ class Itstool < Formula
 #    sha256 "7dc6c74dcdeb516071721537ec8b19ab3be9c44c6c77e86d6d841388a9dc95d1" => :sierra
 #  end
 
-  depends_on "autoconf" => :build
-  depends_on "automake" => :build
-  depends_on "libxml2"
-  depends_on "python"
+  depends_on "tenantcloud/tenantcloud/autoconf" => :build
+  depends_on "tenantcloud/tenantcloud/automake" => :build
+  depends_on "tenantcloud/tenantcloud/libxml2"
+  depends_on "tenantcloud/tenantcloud/python"
 
   def install
     xy = Language::Python.major_minor_version "python3"

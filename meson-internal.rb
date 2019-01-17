@@ -21,8 +21,8 @@ class MesonInternal < Formula
     the official meson build
   EOS
 
-  depends_on "ninja"
-  depends_on "python"
+  depends_on "tenantcloud/tenantcloud/ninja"
+  depends_on "tenantcloud/tenantcloud/python"
 
   # see https://github.com/mesonbuild/meson/pull/2577
   patch do

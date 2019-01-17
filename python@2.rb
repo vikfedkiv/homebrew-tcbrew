@@ -24,12 +24,12 @@ class PythonAT2 < Formula
     satisfy { MacOS::CLT.installed? }
   end
 
-  depends_on "pkg-config" => :build
-  depends_on "sphinx-doc" => :build if MacOS.version > :snow_leopard
-  depends_on "gdbm"
-  depends_on "openssl"
-  depends_on "readline"
-  depends_on "sqlite"
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/sphinx-doc" => :build if MacOS.version > :snow_leopard
+  depends_on "tenantcloud/tenantcloud/gdbm"
+  depends_on "tenantcloud/tenantcloud/openssl"
+  depends_on "tenantcloud/tenantcloud/readline"
+  depends_on "tenantcloud/tenantcloud/sqlite"
 
   resource "setuptools" do
     url "https://files.pythonhosted.org/packages/37/1b/b25507861991beeade31473868463dad0e58b1978c209de27384ae541b0b/setuptools-40.6.3.zip"

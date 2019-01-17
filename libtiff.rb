@@ -12,7 +12,7 @@ class Libtiff < Formula
 #    sha256 "57c7e27e610ed62652678ccc9162dc27c5cc197aab4d16e0ea425acf8f33bb17" => :sierra
 #  end
 
-  depends_on "jpeg"
+  depends_on "tenantcloud/tenantcloud/jpeg"
 
   # Patches are taken from latest Fedora package, which is currently
   # libtiff-4.0.10-1.fc30.src.rpm and whose changelog is available at

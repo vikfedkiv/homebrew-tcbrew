@@ -5,7 +5,7 @@ class Automake < Formula
   sha256 "5d05bb38a23fd3312b10aea93840feec685bdf4a41146e78882848165d3ae921"
   revision 1
 
-  depends_on "autoconf"
+  depends_on "tenantcloud/tenantcloud/autoconf"
 
   # https://lists.gnu.org/archive/html/bug-automake/2018-04/msg00002.html
   # Remove this when applying any future 1.16.2 update.

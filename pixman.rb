@@ -11,7 +11,7 @@ class Pixman < Formula
 #    sha256 "d793a8b455c39dd082f625c5cf7547eedca9aaa184a0629a580c7af28743589c" => :sierra
 #  end
 
-  depends_on "pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
 
   def install
     system "./configure", "--disable-dependency-tracking",

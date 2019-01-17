@@ -14,7 +14,7 @@ class DocbookXsl < Formula
 #    sha256 "b6166ebd526d11e436d6138d53160774b5ff95c5ff5fe5cd34841185d7529855" => :mavericks
 #  end
 
-  depends_on "docbook"
+  depends_on "tenantcloud/tenantcloud/docbook"
 
   resource "ns" do
     url "https://downloads.sourceforge.net/project/docbook/docbook-xsl-ns/1.79.1/docbook-xsl-ns-1.79.1.tar.bz2"

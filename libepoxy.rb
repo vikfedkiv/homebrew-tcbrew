@@ -11,10 +11,10 @@ class Libepoxy < Formula
 #    sha256 "147538004325b02238d187ec1ef55944a0e74fe83accf1506904b62d01f75ec2" => :sierra
 #  end
 
-  depends_on "meson" => :build
-  depends_on "ninja" => :build
-  depends_on "pkg-config" => :build
-  depends_on "python" => :build
+  depends_on "tenantcloud/tenantcloud/meson" => :build
+  depends_on "tenantcloud/tenantcloud/ninja" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/python" => :build
 
   def install
     mkdir "build" do

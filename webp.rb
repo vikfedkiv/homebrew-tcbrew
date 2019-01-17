@@ -12,13 +12,13 @@ class Webp < Formula
 
   head do
     url "https://chromium.googlesource.com/webm/libwebp.git"
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
-  depends_on "jpeg"
-  depends_on "libpng"
+  depends_on "tenantcloud/tenantcloud/jpeg"
+  depends_on "tenantcloud/tenantcloud/libpng"
 
   def install
     system "./autogen.sh" if build.head?

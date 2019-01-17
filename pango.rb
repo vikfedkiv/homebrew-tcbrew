@@ -14,19 +14,19 @@ class Pango < Formula
   head do
     url "https://gitlab.gnome.org/GNOME/pango.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "gtk-doc" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/gtk-doc" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "pkg-config" => :build
-  depends_on "cairo"
-  depends_on "fontconfig"
-  depends_on "fribidi"
-  depends_on "glib"
-  depends_on "harfbuzz"
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/cairo"
+  depends_on "tenantcloud/tenantcloud/fontconfig"
+  depends_on "tenantcloud/tenantcloud/fribidi"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/harfbuzz"
 
   # This fixes a font-size problem in gtk
   # For discussion, see https://bugzilla.gnome.org/show_bug.cgi?id=787867

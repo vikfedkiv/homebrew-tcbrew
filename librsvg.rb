@@ -10,15 +10,15 @@ class Librsvg < Formula
 #    sha256 "daadc17db9bb17dc07059ce7a9be438c80e00adbf7ae540d464b388f17c3954c" => :sierra
 #  end
 
-  depends_on "gobject-introspection" => :build
-  depends_on "pkg-config" => :build
-  depends_on "rust" => :build
-  depends_on "cairo"
-  depends_on "gdk-pixbuf"
-  depends_on "glib"
-  depends_on "libcroco"
-  depends_on "pango"
-  depends_on "gtk+3" => :optional
+  depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/rust" => :build
+  depends_on "tenantcloud/tenantcloud/cairo"
+  depends_on "tenantcloud/tenantcloud/gdk-pixbuf"
+  depends_on "tenantcloud/tenantcloud/glib"
+  depends_on "tenantcloud/tenantcloud/libcroco"
+  depends_on "tenantcloud/tenantcloud/pango"
+  depends_on "tenantcloud/tenantcloud/gtk+3" => :optional
 
   def install
     args = %W[

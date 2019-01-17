@@ -12,11 +12,11 @@ class CurlOpenssl < Formula
 
   keg_only :provided_by_macos
 
-  depends_on "pkg-config" => :build
-  depends_on "brotli"
-  depends_on "nghttp2"
-  depends_on "openldap"
-  depends_on "openssl"
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/brotli"
+  depends_on "tenantcloud/tenantcloud/nghttp2"
+  depends_on "tenantcloud/tenantcloud/openldap"
+  depends_on "tenantcloud/tenantcloud/openssl"
 
   def install
     # Allow to build on Lion, lowering from the upstream setting of 10.8

@@ -15,9 +15,9 @@ class Libpng < Formula
   head do
     url "https://github.com/glennrp/libpng.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
   def install

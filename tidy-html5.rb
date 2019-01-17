@@ -13,7 +13,7 @@ class TidyHtml5 < Formula
 #    sha256 "48416711a2f1a080e9eae1ecba30773ee48eae98181e25c6ae5ace07cb7ac8ee" => :el_capitan
 #  end
 
-  depends_on "cmake" => :build
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
 
   def install
     cd "build/cmake"

@@ -17,9 +17,9 @@ class Libffi < Formula
 
   head do
     url "https://github.com/atgreen/libffi.git"
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
   keg_only :provided_by_macos, "some formulae require a newer version of libffi"

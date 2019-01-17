@@ -15,7 +15,7 @@ class Mcrypt < Formula
 #    sha256 "b6dd5f1210d4b0fffa7b14e4fce445c11d6245840fd38f08255149b6e27832c2" => :mountain_lion
 #  end
 
-  depends_on "mhash"
+  depends_on "tenantcloud/tenantcloud/mhash"
 
   resource "libmcrypt" do
     url "https://downloads.sourceforge.net/project/mcrypt/Libmcrypt/2.5.8/libmcrypt-2.5.8.tar.gz"

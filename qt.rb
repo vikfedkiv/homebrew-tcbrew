@@ -19,7 +19,7 @@ class Qt < Formula
 
   keg_only "Qt 5 has CMake issues when linked"
 
-  depends_on "pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
   depends_on :xcode => :build
 
   def install

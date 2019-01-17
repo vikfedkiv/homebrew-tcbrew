@@ -12,7 +12,7 @@ class Openldap < Formula
 
   keg_only :provided_by_macos
 
-  depends_on "openssl"
+  depends_on "tenantcloud/tenantcloud/openssl"
 
   def install
     args = %W[

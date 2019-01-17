@@ -12,7 +12,7 @@ class Graphite2 < Formula
 #    sha256 "3aa5eeba93470994d028afa0180f9122f3185a2e72179698ce781561e9287af6" => :sierra
 #  end
 
-  depends_on "cmake" => :build
+  depends_on "tenantcloud/tenantcloud/cmake" => :build
 
   resource "testfont" do
     url "https://scripts.sil.org/pub/woff/fonts/Simple-Graphite-Font.ttf"

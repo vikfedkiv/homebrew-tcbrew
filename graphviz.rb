@@ -19,9 +19,9 @@ class Graphviz < Formula
   head do
     url "https://gitlab.com/graphviz/graphviz.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
   option "with-app", "Build GraphViz.app (requires full XCode install)"
@@ -30,14 +30,14 @@ class Graphviz < Formula
 
   deprecated_option "with-pangocairo" => "with-pango"
 
-  depends_on "pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
   depends_on :xcode => :build if build.with? "app"
-  depends_on "gd"
-  depends_on "libpng"
-  depends_on "libtool"
-  depends_on "gts" => :optional
-  depends_on "librsvg" => :optional
-  depends_on "pango" => :optional
+  depends_on "tenantcloud/tenantcloud/gd"
+  depends_on "tenantcloud/tenantcloud/libpng"
+  depends_on "tenantcloud/tenantcloud/libtool"
+  depends_on "tenantcloud/tenantcloud/gts" => :optional
+  depends_on "tenantcloud/tenantcloud/librsvg" => :optional
+  depends_on "tenantcloud/tenantcloud/pango" => :optional
 
   def install
     # Only needed when using superenv, which causes qfrexp and qldexp to be

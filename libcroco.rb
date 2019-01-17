@@ -13,9 +13,9 @@ class Libcroco < Formula
 #    sha256 "46e3c7e47448859863644d50ac6d940a19a1bfd7f5a99d4d753e4e3885654767" => :yosemite
 #  end
 
-  depends_on "intltool" => :build
-  depends_on "pkg-config" => :build
-  depends_on "glib"
+  depends_on "tenantcloud/tenantcloud/intltool" => :build
+  depends_on "tenantcloud/tenantcloud/pkg-config" => :build
+  depends_on "tenantcloud/tenantcloud/glib"
 
   def install
     system "./configure", "--disable-dependency-tracking",

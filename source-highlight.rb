@@ -13,7 +13,7 @@ class SourceHighlight < Formula
 #    sha256 "ac02e274218e45a543fca0478086bc3fed67d07deff990bf51065586c59602a9" => :sierra
 #  end
 
-  depends_on "boost"
+  depends_on "tenantcloud/tenantcloud/boost"
 
   needs :cxx11
 

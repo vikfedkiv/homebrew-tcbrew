@@ -16,17 +16,17 @@ class Gd < Formula
   head do
     url "https://github.com/libgd/libgd.git"
 
-    depends_on "autoconf" => :build
-    depends_on "automake" => :build
-    depends_on "libtool" => :build
+    depends_on "tenantcloud/tenantcloud/autoconf" => :build
+    depends_on "tenantcloud/tenantcloud/automake" => :build
+    depends_on "tenantcloud/tenantcloud/libtool" => :build
   end
 
-  depends_on "fontconfig"
-  depends_on "freetype"
-  depends_on "jpeg"
-  depends_on "libpng"
-  depends_on "libtiff"
-  depends_on "webp"
+  depends_on "tenantcloud/tenantcloud/fontconfig"
+  depends_on "tenantcloud/tenantcloud/freetype"
+  depends_on "tenantcloud/tenantcloud/jpeg"
+  depends_on "tenantcloud/tenantcloud/libpng"
+  depends_on "tenantcloud/tenantcloud/libtiff"
+  depends_on "tenantcloud/tenantcloud/webp"
 
   def install
     system "./bootstrap.sh" if build.head?
