@@ -1,15 +1,15 @@
 class RedisAT40 < Formula
   desc "Persistent key-value database, with built-in net interface"
   homepage "https://redis.io/"
-  url "http://10.10.4.242:8081/redis-4.0.12.tar.gz"
-  sha256 "d11767986ba90b7bad6cc8bc67419a3900d86c047a453fab1deedb71875ff65c"
+  url "http://10.10.4.242:8081/redis-4.0.11.tar.gz"
+  sha256 "7e4d275eec261d06497521b4caa4bb7d10fa47b3e43a50a1c737bb6034d7364c"
+#  sha256 "d11767986ba90b7bad6cc8bc67419a3900d86c047a453fab1deedb71875ff65c"
 
-#  bottle do
-#    cellar :any_skip_relocation
-#    sha256 "2e21e362c8d97338ed0b95bbbf80f81322601411424d32b4ab5023e93cfc9969" => :mojave
-#    sha256 "a735ef4d8cf8f865bf9ab0d538e1eaedc37d18669b99381a7aa3be0e642c72d8" => :high_sierra
-#    sha256 "9453b63fd6dd0230181d047cd3ec6cfa295c739a7176cfd63f510ead98abecc0" => :sierra
-#  end
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "82a4e9157e338f0bf22a4228d2ad215326476b9d05dad30e29ea459becbf23e3" => :mojave
+    sha256 "85edd8937aa7098e44234601132e63f364c32e1cefecc9c10cdc1f8643672eb8" => :high_sierra
+  end
 
   keg_only :versioned_formula
 
