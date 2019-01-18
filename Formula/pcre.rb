@@ -5,6 +5,7 @@ class Pcre < Formula
   sha256 "2cd04b7c887808be030254e8d77de11d3fe9d4505c39d4b15d2664ffe8bf9301"
 
   bottle do
+    root_url "http://10.10.4.242:8081/bottles"
     cellar :any
     sha256 "f848e72c9a6ddfdd4e57d25df859830187cbb8e850996b22a84270a6590f56ff" => :mojave
     sha256 "b904c008c04003c3f40e30c6ee6a3b411aad81aa2f2684db9bf59bccd9d58b01" => :high_sierra

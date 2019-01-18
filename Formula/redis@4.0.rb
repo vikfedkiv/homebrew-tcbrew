@@ -6,6 +6,7 @@ class RedisAT40 < Formula
 #  sha256 "d11767986ba90b7bad6cc8bc67419a3900d86c047a453fab1deedb71875ff65c"
 
   bottle do
+    root_url "http://10.10.4.242:8081/bottles"
     cellar :any_skip_relocation
     sha256 "82a4e9157e338f0bf22a4228d2ad215326476b9d05dad30e29ea459becbf23e3" => :mojave
     sha256 "85edd8937aa7098e44234601132e63f364c32e1cefecc9c10cdc1f8643672eb8" => :high_sierra
