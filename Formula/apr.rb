@@ -3,14 +3,6 @@ class Apr < Formula
   homepage "https://apr.apache.org/"
   url "http://10.10.4.242:8081/apr-1.6.5.tar.bz2"
 
-#  url do
-#    require 'open-uri'
-#    base_url = 'https://git.io/fhCUu'
-#    file = open(base_url).read;
-#    pack = 'apr-1.6.5.tar.bz2'
-#    "#{file.strip}#{pack}"
-#  end
-
   sha256 "a67ca9fcf9c4ff59bce7f428a323c8b5e18667fdea7b0ebad47d194371b0a105"
 
 #  bottle do
