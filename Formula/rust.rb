@@ -44,12 +44,6 @@ class Rust < Formula
   depends_on "tenantcloud/tenantcloud/openssl"
   depends_on "tenantcloud/tenantcloud/pkg-config"
 
-  # According to the official readme, GCC 4.7+ is required
-  fails_with :gcc_4_2
-  ("4.3".."4.6").each do |n|
-    fails_with :gcc => n
-  end
-
   resource "cargobootstrap" do
     # From https://github.com/rust-lang/rust/blob/#{version}/src/stage0.txt
     url "http://10.10.4.242:8081/cargo-0.31.0-x86_64-apple-darwin.tar.gz"

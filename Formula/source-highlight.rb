@@ -15,8 +15,6 @@ class SourceHighlight < Formula
 
   depends_on "tenantcloud/tenantcloud/boost"
 
-  needs :cxx11
-
   def install
     system "./configure", "--disable-dependency-tracking",
                           "--prefix=#{prefix}",
