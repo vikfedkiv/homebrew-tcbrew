@@ -5,12 +5,12 @@ class Cmake < Formula
   sha256 "c925e7d2c5ba511a69f43543ed7b4182a7d446c274c7480d0e42cd933076ae25"
   head "https://cmake.org/cmake.git"
 
-#  bottle do
-#    cellar :any_skip_relocation
-#    sha256 "6ef34cdd1596e3db55071cf0a88a943ef99f2b466e1a34ead5756da7bf22db58" => :mojave
-#    sha256 "ac6cf789fde63484d649116a13874671d5dbb5608c7f51b0c06c98539a194e06" => :high_sierra
-#    sha256 "57333ced72341ebd56f68cfdf52eb7b1b4c63d9948c71c8846ee20b4dc63174d" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any_skip_relocation
+    sha256 "6ef34cdd1596e3db55071cf0a88a943ef99f2b466e1a34ead5756da7bf22db58" => :mojave
+    sha256 "ac6cf789fde63484d649116a13874671d5dbb5608c7f51b0c06c98539a194e06" => :high_sierra
+  end
 
   depends_on "tenantcloud/tenantcloud/sphinx-doc" => :build
 

@@ -4,11 +4,11 @@ class Cairo < Formula
   url "http://10.10.4.242:8081/cairo-1.16.0.tar.xz"
   sha256 "5e7b29b3f113ef870d1e3ecf8adf21f923396401604bda16d44be45e66052331"
 
-#  bottle do
-#    sha256 "204d0a3df9ebebef6f553b4a583351f14b84ca8682537941f2c04ba971999444" => :mojave
-#    sha256 "f518c9e6cd207647eedff70720fc99a85eaf143da866f4e679ffb0b6c6c50098" => :high_sierra
-#    sha256 "1b0421e0159c06862b742e7868dbef23985afc2f1e282c4d985ff13725995a6d" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    sha256 "204d0a3df9ebebef6f553b4a583351f14b84ca8682537941f2c04ba971999444" => :mojave
+    sha256 "f518c9e6cd207647eedff70720fc99a85eaf143da866f4e679ffb0b6c6c50098" => :high_sierra
+  end
 
   head do
     url "https://anongit.freedesktop.org/git/cairo", :using => :git

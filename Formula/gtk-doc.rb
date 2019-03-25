@@ -5,12 +5,12 @@ class GtkDoc < Formula
   sha256 "911e29e302252c96128965ee1f4067d5431a88e00ad1023a8bc1d6b922af5715"
   revision 1
 
-#  bottle do
-#    cellar :any_skip_relocation
-#    sha256 "ef4993d2b5b8c9abcb3b587fae71a6b26641d834a271f7edf333a545b32b2611" => :mojave
-#    sha256 "147ce0fadb0bdebfd1f13e8539c785f67c577b4cc143c21ee599a52f4aa1af33" => :high_sierra
-#    sha256 "147ce0fadb0bdebfd1f13e8539c785f67c577b4cc143c21ee599a52f4aa1af33" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any_skip_relocation
+    sha256 "ef4993d2b5b8c9abcb3b587fae71a6b26641d834a271f7edf333a545b32b2611" => :mojave
+    sha256 "147ce0fadb0bdebfd1f13e8539c785f67c577b4cc143c21ee599a52f4aa1af33" => :high_sierra
+  end
 
   depends_on "tenantcloud/tenantcloud/itstool" => :build
   depends_on "tenantcloud/tenantcloud/pkg-config" => :build

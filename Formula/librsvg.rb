@@ -4,11 +4,11 @@ class Librsvg < Formula
   url "http://10.10.4.242:8081/librsvg-2.44.11.tar.xz"
   sha256 "e45a6eee174faf442e06636ee31ca1d30758b84d525a174c34434ca0e3a1af9e"
 
-#  bottle do
-#    sha256 "7a4886ed6586dc35d6462f47867e12a208345e1be9d16c864d8ec538dd690bc8" => :mojave
-#    sha256 "a3b8ae6f5f642f9eaceef91083788724c8362c7196a6ae1c74e5f0d7da0bfba0" => :high_sierra
-#    sha256 "daadc17db9bb17dc07059ce7a9be438c80e00adbf7ae540d464b388f17c3954c" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    sha256 "7a4886ed6586dc35d6462f47867e12a208345e1be9d16c864d8ec538dd690bc8" => :mojave
+    sha256 "a3b8ae6f5f642f9eaceef91083788724c8362c7196a6ae1c74e5f0d7da0bfba0" => :high_sierra
+  end
 
   depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
   depends_on "tenantcloud/tenantcloud/pkg-config" => :build

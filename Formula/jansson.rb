@@ -4,12 +4,12 @@ class Jansson < Formula
   url "http://10.10.4.242:8081/jansson-2.12.tar.gz"
   sha256 "5f8dec765048efac5d919aded51b26a32a05397ea207aa769ff6b53c7027d2c9"
 
-#  bottle do
-#    cellar :any
-#    sha256 "79437c250f1b9fff4eab1a15385bbc38e5a29856b0efe3e5b0d68356d24d1f7b" => :mojave
-#    sha256 "aeb69f2744314df891be52ee4ff2fdb95e8991715a24f74858535063639f3491" => :high_sierra
-#    sha256 "ffafd42341f4a86ab91bf46e56a2cc4436d840998a9d053bff38467f8b6f4a1b" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any
+    sha256 "79437c250f1b9fff4eab1a15385bbc38e5a29856b0efe3e5b0d68356d24d1f7b" => :mojave
+    sha256 "aeb69f2744314df891be52ee4ff2fdb95e8991715a24f74858535063639f3491" => :high_sierra
+  end
 
   def install
     system "./configure", "--disable-dependency-tracking",

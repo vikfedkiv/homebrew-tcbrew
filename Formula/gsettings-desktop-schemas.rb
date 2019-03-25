@@ -4,13 +4,12 @@ class GsettingsDesktopSchemas < Formula
   url "http://10.10.4.242:8081/gsettings-desktop-schemas-3.28.1.tar.xz"
   sha256 "f88ea6849ffe897c51cfeca5e45c3890010c82c58be2aee18b01349648e5502f"
 
-#  bottle do
-#    cellar :any_skip_relocation
-#    sha256 "84d8b9449e20e599ee00ce1d661c1bd0e4941344fe3631439c8d52133471bae8" => :mojave
-#    sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :high_sierra
-#    sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :sierra
-#    sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :el_capitan
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any_skip_relocation
+    sha256 "84d8b9449e20e599ee00ce1d661c1bd0e4941344fe3631439c8d52133471bae8" => :mojave
+    sha256 "39ef6c65974fe55184a8997c8b3a8de5f0dcc5b71f0bc457887381c2f567c154" => :high_sierra
+  end
 
   depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
   depends_on "tenantcloud/tenantcloud/intltool" => :build

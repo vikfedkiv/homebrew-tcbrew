@@ -4,12 +4,12 @@ class Harfbuzz < Formula
   url "http://10.10.4.242:8081/harfbuzz-2.3.0.tar.bz2"
   sha256 "3b314db655a41d19481e18312465fa25fca6f63382217f08062f126059f96764"
 
-#  bottle do
-#    cellar :any
-#    sha256 "67d163766bd48b21f1400f18414019fe2f0b9e118ad57370066efe9147661733" => :mojave
-#    sha256 "2679592b0ab7669745103679038a059af24c34693823ef800f6966eb2ecccbac" => :high_sierra
-#    sha256 "02e09fd4e690e331193c7b3e180332789fb4dff2a5282fc3829004dbadf8f4b5" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any
+    sha256 "67d163766bd48b21f1400f18414019fe2f0b9e118ad57370066efe9147661733" => :mojave
+    sha256 "2679592b0ab7669745103679038a059af24c34693823ef800f6966eb2ecccbac" => :high_sierra
+  end
 
   head do
     url "https://github.com/behdad/harfbuzz.git"

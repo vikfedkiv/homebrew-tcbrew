@@ -20,12 +20,12 @@ class Rust < Formula
     end
   end
 
-#  bottle do
-#    cellar :any
-#    sha256 "e2df920e2a1089e0e36d591fa8289ebbd28ddb28912705ecc64de6f387ef4fcf" => :mojave
-#    sha256 "7dc3455ea59cb83d6963cf92272ee752c0f2ab667f78add87f16aa4255dc0cb7" => :high_sierra
-#    sha256 "2eeece7a9368c1814a86ef3814340b1da7f2fedf0a7c9d0e2508309f5683f896" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any
+    sha256 "e2df920e2a1089e0e36d591fa8289ebbd28ddb28912705ecc64de6f387ef4fcf" => :mojave
+    sha256 "7dc3455ea59cb83d6963cf92272ee752c0f2ab667f78add87f16aa4255dc0cb7" => :high_sierra
+  end
 
   head do
     url "https://github.com/rust-lang/rust.git"
@@ -52,7 +52,7 @@ class Rust < Formula
 
   resource "cargobootstrap" do
     # From https://github.com/rust-lang/rust/blob/#{version}/src/stage0.txt
-    url "https://static.rust-lang.org/dist/2018-10-25/cargo-0.31.0-x86_64-apple-darwin.tar.gz"
+    url "http://10.10.4.242:8081/cargo-0.31.0-x86_64-apple-darwin.tar.gz"
     sha256 "2b8fd336db9f98b778e4ed44186066952f02670cc1e49ade4e00fd55cef5e9f9"
   end
 

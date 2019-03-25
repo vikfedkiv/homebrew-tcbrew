@@ -4,12 +4,12 @@ class Libepoxy < Formula
   url "http://10.10.4.242:8081/libepoxy-1.5.3.tar.xz"
   sha256 "002958c5528321edd53440235d3c44e71b5b1e09b9177e8daf677450b6c4433d"
 
-#  bottle do
-#    cellar :any
-#    sha256 "2effda8b89a49b5dbd3860061666757e58ba982534e42507e29ea3646f896178" => :mojave
-#    sha256 "0f7ebb1bf7449c25196dd2f3500e520a2b0eb67ac21263ec87c9d02c7d9e7e58" => :high_sierra
-#    sha256 "147538004325b02238d187ec1ef55944a0e74fe83accf1506904b62d01f75ec2" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any
+    sha256 "2effda8b89a49b5dbd3860061666757e58ba982534e42507e29ea3646f896178" => :mojave
+    sha256 "0f7ebb1bf7449c25196dd2f3500e520a2b0eb67ac21263ec87c9d02c7d9e7e58" => :high_sierra
+  end
 
   depends_on "tenantcloud/tenantcloud/meson" => :build
   depends_on "tenantcloud/tenantcloud/ninja" => :build

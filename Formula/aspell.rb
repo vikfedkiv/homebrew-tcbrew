@@ -2,26 +2,15 @@ class Aspell < Formula
   desc "Spell checker with better logic than ispell"
   homepage "http://aspell.net/"
   url "http://10.10.4.242:8081/aspell-0.60.6.1.tar.gz"
-
-#  url do
-#    require 'open-uri'
-#    base_url = 'https://git.io/fhCUu'
-#    file = open(base_url).read;
-#    pack = 'aspell-0.60.6.1.tar.gz'
-#    "#{file.strip}#{pack}"
-#  end
-
 #  mirror "https://ftpmirror.gnu.org/aspell/aspell-0.60.6.1.tar.gz"
   sha256 "f52583a83a63633701c5f71db3dc40aab87b7f76b29723aeb27941eff42df6e1"
   revision 1
 
-#  bottle do
-#    sha256 "f0264ded1cf174eb37c8a4175bc5f900d8abbe2d06e7f8109aa96106dd044f25" => :mojave
-#    sha256 "d5927b312520252d7634902269336fe28148dac0d986e7bb0883327233462f01" => :high_sierra
-#    sha256 "69c2de621e5d6c0a18ca7bf43b153deefef24eaa65d8ae3f5939a106d52948ce" => :sierra
-#    sha256 "d107e964156e9932303a3569cbfc489d96593d67c5a724e70c45dbe2ed961516" => :el_capitan
-#    sha256 "4a50a1b26bcbaa10dc4968332d03ce3e24772a60ec7b1561ab23102d0f46052a" => :yosemite
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    sha256 "f0264ded1cf174eb37c8a4175bc5f900d8abbe2d06e7f8109aa96106dd044f25" => :mojave
+    sha256 "d5927b312520252d7634902269336fe28148dac0d986e7bb0883327233462f01" => :high_sierra
+  end
 
   # Dictionaries installed by default: en, de, es, fr
   option "without-lang-en", "Do not install en dictionary"

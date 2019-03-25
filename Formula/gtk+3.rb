@@ -5,11 +5,11 @@ class Gtkx3 < Formula
   sha256 "5b3b05e427cc928d103561ed2e91b2b2881fe88b1f167b0b1c9990da6aac8892"
   revision 1
 
-#  bottle do
-#    sha256 "d51ec8dc45a2765a58cca5683ebbf38ef19af9d502a0b53e18535a78348899e5" => :mojave
-#    sha256 "fa2706776306dda9ecb3708539f5aba3f128cee5f9f5d7c8c6cd31267568ed6a" => :high_sierra
-#    sha256 "71b0a4510954ad5c9010f9e4b019b52460c44bc082cba2ec74af25345b254ea8" => :sierra
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    sha256 "d51ec8dc45a2765a58cca5683ebbf38ef19af9d502a0b53e18535a78348899e5" => :mojave
+    sha256 "fa2706776306dda9ecb3708539f5aba3f128cee5f9f5d7c8c6cd31267568ed6a" => :high_sierra
+  end
 
   depends_on "tenantcloud/tenantcloud/gobject-introspection" => :build
   depends_on "tenantcloud/tenantcloud/pkg-config" => :build

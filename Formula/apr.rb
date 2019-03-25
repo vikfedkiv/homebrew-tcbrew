@@ -2,24 +2,14 @@ class Apr < Formula
   desc "Apache Portable Runtime library"
   homepage "https://apr.apache.org/"
   url "http://10.10.4.242:8081/apr-1.6.5.tar.bz2"
-
-#  url do
-#    require 'open-uri'
-#    base_url = 'https://git.io/fhCUu'
-#    file = open(base_url).read;
-#    pack = 'apr-1.6.5.tar.bz2'
-#    "#{file.strip}#{pack}"
-#  end
-
   sha256 "a67ca9fcf9c4ff59bce7f428a323c8b5e18667fdea7b0ebad47d194371b0a105"
 
-#  bottle do
-#    cellar :any
-#    sha256 "0111bfb48f0a020292bd503c2c8e1b374f9ea844c3cc32a0b35a670234adc055" => :mojave
-#    sha256 "314c8ebd08304a0f7dcebe3ca7fe5cc6b1c283b744f12d19d0931b91fac4fe20" => :high_sierra
-#    sha256 "71cb98918a64daac38641bf4bbfb9457693ffd4109c023f0c3a50bfa029141f7" => :sierra
-#    sha256 "a3e0d0b44862e575f529d9b6fdf467b507dced4bfcf9afc30d06d3ddc5e51a0e" => :el_capitan
-#  end
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any
+    sha256 "0111bfb48f0a020292bd503c2c8e1b374f9ea844c3cc32a0b35a670234adc055" => :mojave
+    sha256 "314c8ebd08304a0f7dcebe3ca7fe5cc6b1c283b744f12d19d0931b91fac4fe20" => :high_sierra
+  end
 
   keg_only :provided_by_macos, "Apple's CLT package contains apr"
 

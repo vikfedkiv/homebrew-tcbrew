@@ -7,6 +7,13 @@ class Libtool < Formula
   url "http://10.10.4.242:8081/libtool-2.4.6.tar.xz"
   sha256 "7c87a8c2c8c0fc9cd5019e402bed4292462d00a718a7cd5f11218153bf28b26f"
   revision 1
+  
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any
+    sha256 "c92ab35c3706c255a36b733aa7a475159da9cf375c275d230fd6a7802a94e4dc" => :mojave
+    sha256 "ebb50367eb2336ee317841587e24690de124fb2c3e4d346405e9b41c4e6120ae" => :high_sierra
+  end
 
   def install
     ENV["SED"] = "sed" # prevent libtool from hardcoding sed path from superenv

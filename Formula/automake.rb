@@ -5,6 +5,13 @@ class Automake < Formula
   sha256 "5d05bb38a23fd3312b10aea93840feec685bdf4a41146e78882848165d3ae921"
   revision 1
 
+  bottle do
+    root_url "http://10.10.4.242:8081/bottles"
+    cellar :any_skip_relocation
+    sha256 "0a359c2385d0673ce1ab3cdaf39dd22af191f7b74732105ca5751e08a334e061" => :mojave
+    sha256 "fb32c065aaf91661380af32ed301edcf209ba453635c79ca945353b67e54af10" => :high_sierra
+  end
+
   depends_on "tenantcloud/tenantcloud/autoconf"
 
   # https://lists.gnu.org/archive/html/bug-automake/2018-04/msg00002.html
