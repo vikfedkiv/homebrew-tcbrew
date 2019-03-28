@@ -1,11 +1,11 @@
 class Tcuser < Formula
   desc ""
   homepage ""
-  url "https://github.com/vikfedkiv/tcuser/archive/v1.0.0.tar.gz"
-  sha256 "39c051a09174b95b7e5fbb745ce928521219c612d0caca9b08ae0f91c1351455"
+  url "https://github.com/vikfedkiv/tcuser/archive/v1.0.1.tar.gz"
+  sha256 "ece509dcb76cc2866c516850696f2ef60cea7103b7680ba8163d901c249a8e49"
 
   def install
-	bin.install "tcuser"
+        bin.install "tcuser"
   end
 
 end
